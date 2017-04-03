@@ -8,5 +8,5 @@
 @endsection
 
 @section('content')
-nkjfnkg
+
 @endsection
