@@ -28,7 +28,7 @@
         <div class="navbar-inner">
             <div class="container">
                 <a href="#" class="brand">
-                     <img src="images/LogoPSUAct.png" width="120" height="40" alt="Logo" />
+                     <img src="images/LogoPSUAct.png" href="/index" width="120" height="40" alt="Logo" />
                     <!-- This is website logo -->
                 </a>
                 <!-- Navigation button, visible on small resolution -->
@@ -38,20 +38,27 @@
                 <!-- Main navigation -->
                 <div class="nav-collapse collapse pull-right">
                         <ul class="nav navbar-nav linkEffects linkHoverEffect_12">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="/index">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Transcript</span></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu agileinfo">
-                                <li><a href="#">Registration Online</a></li>
-                                <li><a href="#">Calendar</a></li>
-                                <li><a href="#">Check Transcript</a></li>
+                                <li><a href="/event">Registration Online</a></li>
+                                <li><a href="/calendar">Calendar</a></li>
+                                <li><a href="https://student.psu.ac.th/TS234/" target="_blank">Check Transcript</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Student Union</a></li>
-                        <li><a href="#">Doucment</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Student Union</span></span> <b class="caret"></b></a>
+                            <ul class="dropdown-menu agileinfo">
+                                <li><a href="/studentunion">Student Union</a></li>
+                                <li><a href="/studentcouncil">Student Council</a></li>
+                                <li><a href="/club">Club</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/doucment">Doucment</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <!-- End main navigation -->

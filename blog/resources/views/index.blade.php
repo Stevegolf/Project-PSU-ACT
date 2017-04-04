@@ -49,7 +49,14 @@
                         </li>
                         <li><a href="/news">News</a></li>
                         <li><a href="/gallery">Gallery</a></li>
-                        <li><a href="/studentunion">Student Union</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Student Union</span></span> <b class="caret"></b></a>
+                            <ul class="dropdown-menu agileinfo">
+                                <li><a href="/studentunion">Student Union</a></li>
+                                <li><a href="/studentcouncil">Student Council</a></li>
+                                <li><a href="/club" >Club</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/doucment">Doucment</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
