@@ -18,14 +18,20 @@
                     <li class="filter" data-filter="all">
                         <a href="#noAction">All</a>
                     </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">Web</a>
+                    <li class="filter" data-filter="public_mind">
+                        <a href="#noAction">Public Mind</a>
                     </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">Photo</a>
+                    <li class="filter" data-filter="social">
+                        <a href="#noAction">Social</a>
                     </li>
-                    <li class="filter" data-filter="identity">
-                        <a href="#noAction">Identity</a>
+                    <li class="filter" data-filter="proudly">
+                        <a href="#noAction">Proudly</a>
+                    </li>
+                    <li class="filter" data-filter="culture">
+                        <a href="#noAction">Culture</a>
+                    </li>
+                    <li class="filter" data-filter="health">
+                        <a href="#noAction">Health</a>
                     </li>
                 </ul>
                 <!-- Start details for portfolio project 1 -->
