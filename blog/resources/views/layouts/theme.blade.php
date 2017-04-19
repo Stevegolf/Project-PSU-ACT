@@ -68,10 +68,8 @@
     @section('sidebar')
     @show
 
-    <div class="container">
-        @yield('content')
-    </div>
 
+    @yield('content')
     <!-- Footer section start -->
     <div class="footer">
         <p>&copy; Student Affairs <a href="http://www.phuket.psu.ac.th/index1.php">Prince of Songkla University, Phuket Campus</a>
