@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
- <!-- Portfolio section start -->
+ <!-- Event section start -->
         <div class="section secondary-section " id="event">
             <div class="container">
                 <div class=" title">
@@ -34,7 +34,7 @@
                         <a href="#noAction">Health</a>
                     </li>
                 </ul>
-                <!-- Start details for portfolio project 1 -->
+                <!-- Start details for Event project 1 -->
                 <div id="single-project">
                     <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                         <div class="span6">
@@ -62,8 +62,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 1 -->
-                    <!-- Start details for portfolio project 2 -->
+                    <!-- End details for Event project 1 -->
+                    <!-- Start details for Event project 2 -->
                     <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio02.png" alt="project 2">
@@ -90,8 +90,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 2 -->
-                    <!-- Start details for portfolio project 3 -->
+                    <!-- End details for Event project 2 -->
+                    <!-- Start details for Event project 3 -->
                     <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio03.png" alt="project 3">
@@ -118,8 +118,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 3 -->
-                    <!-- Start details for portfolio project 4 -->
+                    <!-- End details for Event project 3 -->
+                    <!-- Start details for Event project 4 -->
                     <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio04.png" alt="project 4">
@@ -146,8 +146,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 4 -->
-                    <!-- Start details for portfolio project 5 -->
+                    <!-- End details for Event project 4 -->
+                    <!-- Start details for Event project 5 -->
                     <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio05.png" alt="project 5">
@@ -174,8 +174,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 5 -->
-                    <!-- Start details for portfolio project 6 -->
+                    <!-- End details for Event project 5 -->
+                    <!-- Start details for Event project 6 -->
                     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio06.png" alt="project 6">
@@ -202,8 +202,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 6 -->
-                    <!-- Start details for portfolio project 7 -->
+                    <!-- End details for Event project 6 -->
+                    <!-- Start details for Event project 7 -->
                     <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio07.png" alt="project 7">
@@ -230,8 +230,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 7 -->
-                    <!-- Start details for portfolio project 8 -->
+                    <!-- End details for Event project 7 -->
+                    <!-- Start details for Event project 8 -->
                     <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio08.png" alt="project 8">
@@ -258,8 +258,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 8 -->
-                    <!-- Start details for portfolio project 9 -->
+                    <!-- End details for Event project 8 -->
+                    <!-- Start details for Event project 9 -->
                     <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
                         <div class="span6">
                             <img src="images/Portfolio09.png" alt="project 9">
@@ -286,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End details for portfolio project 9 -->
+                    <!-- End details for Event project 9 -->
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix web">
                             <div class="thumbnail">
@@ -391,7 +391,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio section end -->
+        <!-- Event section end -->
 
 
 @endsection

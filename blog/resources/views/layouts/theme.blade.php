@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    @section('sidebar')
     <div class="navbar">
         <div class="navbar-inner">
             <div class="container">
@@ -65,14 +66,8 @@
             </div>
         </div>
     </div>
-     <div class="panel panel-default">
-        <div class="container">
-            <h2>
-                @section('sidebar')
-                @show
-            </h2>
-        </div>
-    </div>
+    @show
+
     <div class="container">
         @yield('content')
     </div>
