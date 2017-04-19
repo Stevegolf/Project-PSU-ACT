@@ -24,8 +24,7 @@
 </head>
 
 <body>
-    @section('sidebar')
-    <div class="navbar">
+<div class="navbar">
         <div class="navbar-inner">
             <div class="container">
                 <a href="#" class="brand">
@@ -66,6 +65,7 @@
             </div>
         </div>
     </div>
+    @section('sidebar')
     @show
 
     <div class="container">

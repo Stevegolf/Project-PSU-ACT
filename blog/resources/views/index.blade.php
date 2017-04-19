@@ -3,10 +3,7 @@
 @section('title', 'Page Title')
 
 @section('sidebar')
-    @parent
-
-@endsection
- <!-- Start home section -->
+<!-- Start home section -->
     <div id="home">
         <!-- Start cSlider -->
         <div id="da-slider" class="da-slider">
@@ -59,6 +56,10 @@
         </div>
     </div>
     <!-- End home section -->
+    @parent
+
+@endsection
+
 @section('content')
 
 
