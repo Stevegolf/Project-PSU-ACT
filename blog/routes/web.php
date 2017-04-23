@@ -28,3 +28,8 @@ Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
 Route::get('/event','EventController@event');
 Route::get('/index','IndexController@index');
+
+
+Route::get('/dashbord','DashbordController@dashbord');
+Route::post('/loginpsu','LoginController@login');
+Route::get('/loginpsu','LoginController@viewlogin');

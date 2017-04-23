@@ -1,4 +1,4 @@
-@extends('layouts.theme')
+@extends('layouts.adminTheme')
 
 @section('title', 'Page Title')
 
