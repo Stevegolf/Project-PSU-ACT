@@ -66,31 +66,31 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/Portfolio01.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/News01.png" alt="team 1">
+                        <h3>PSU Walk Rally Episode 1</h3>
                         <div class="mask">
-                            <h2>Copywriter</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>PSU Walk Rally Episode 1</h2>
+                            <p>เชิญนักศึกษาร่วมโครงการร่วมแข่งขัน PSU Walk Rally Episode 1 : Penang Survival</p>
                         </div>
                     </div>
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/Portfolio01.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/News02.png" alt="team 1">
+                        <h3>ขอเชิญร่วมประกวดภาพถ่าย</h3>
                         <div class="mask">
-                            <h2>Designer</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>ขอเชิญร่วมประกวดภาพถ่าย</h2>
+                            <p>ขอเชิญร่วมประกวดภาพถ่าย พระราชบิดาในมุมมองของฉัน</p>
                         </div>
                     </div>
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/Portfolio01.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/News03.png" alt="team 1">
+                        <h3>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h3>
                         <div class="mask">
-                            <h2>Photographer</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h2>
+                            <p>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว เพื่อผลิตน้ำมันไบโอดีเซลรายได้ช่วยเหลือผู้ป่วยยากไร้หัวใจและมะเร็ง</p>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,6 @@
         </div>
     </div>
     <!-- News section end -->
-
 
     <!-- Event section start -->
     <div class="section secondary-section" id="event">
@@ -111,111 +110,143 @@
             <div id="single-project">
                 <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                     <div class="span6">
-                        <img src="images/Portfolio01.png" alt="project 1" />
+                        <img src="images/Event01.png" alt="" />
                     </div>
                     <div class="span6">
                         <div class="project-description">
                             <div class="project-title clearfix">
-                                <h3>Webste for Some Client</h3>
+                                <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                                 <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                             </div>
                             <div class="project-info">
                                 <div>
-                                    <span>Client</span>Some Client Name</div>
+                                    <span>หน่วยงาน :</span>พันธกิจสัมพันธ์มหาวิทยาลัยกับสังคม สำนักวิจัยและพัฒนา</div>
                                 <div>
-                                    <span>Date</span>July 2013</div>
+                                    <span>สถานที่จัด :</span>ศูนย์ประชุมนานาชาตฉลองสิริราชสมบัติครบ 60 ปี</div>
                                 <div>
-                                    <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <span>วันที่ :</span>26 มีนาคม 60 </div>
                                 <div>
-                                    <span>Link</span>http://examplecomp.com</div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
-                            <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+                            <p>หมายเหตุ: </p>
                         </div>
                     </div>
                 </div>
                 <!-- End details for portfolio project 1 -->
                 <!-- Start details for portfolio project 2 -->
-                <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                     <div class="span6">
-                        <img src="images/Portfolio02.png" alt="project 2">
+                        <img src="images/Event01.png" alt="" />
                     </div>
                     <div class="span6">
                         <div class="project-description">
                             <div class="project-title clearfix">
-                                <h3>Webste for Some Client</h3>
+                                <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                                 <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                             </div>
                             <div class="project-info">
                                 <div>
-                                    <span>Client</span>Some Client Name</div>
+                                    <span>หน่วยงาน :</span>พันธกิจสัมพันธ์มหาวิทยาลัยกับสังคม สำนักวิจัยและพัฒนา</div>
                                 <div>
-                                    <span>Date</span>July 2013</div>
+                                    <span>สถานที่จัด :</span>ศูนย์ประชุมนานาชาตฉลองสิริราชสมบัติครบ 60 ปี</div>
                                 <div>
-                                    <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <span>วันที่ :</span>26 มีนาคม 60 </div>
                                 <div>
-                                    <span>Link</span>http://examplecomp.com</div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
-                            <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                            <p>หมายเหตุ: </p>
                         </div>
                     </div>
                 </div>
                 <!-- End details for portfolio project 2 -->
                 <!-- Start details for portfolio project 3 -->
-                <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                     <div class="span6">
-                        <img src="images/Portfolio03.png" alt="project 3">
+                        <img src="images/Event01.png" alt="" />
                     </div>
                     <div class="span6">
                         <div class="project-description">
                             <div class="project-title clearfix">
-                                <h3>Webste for Some Client</h3>
+                                <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                                 <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                             </div>
                             <div class="project-info">
                                 <div>
-                                    <span>Client</span>Some Client Name</div>
+                                    <span>หน่วยงาน :</span>พันธกิจสัมพันธ์มหาวิทยาลัยกับสังคม สำนักวิจัยและพัฒนา</div>
                                 <div>
-                                    <span>Date</span>July 2013</div>
+                                    <span>สถานที่จัด :</span>ศูนย์ประชุมนานาชาตฉลองสิริราชสมบัติครบ 60 ปี</div>
                                 <div>
-                                    <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <span>วันที่ :</span>26 มีนาคม 60 </div>
                                 <div>
-                                    <span>Link</span>http://examplecomp.com</div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
-                            <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                            <p>หมายเหตุ: </p>
                         </div>
                     </div>
                 </div>
                 <!-- End details for portfolio project 3 -->
                 <!-- Start details for portfolio project 4 -->
-                <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                     <div class="span6">
-                        <img src="images/Portfolio04.png" alt="project 4">
+                        <img src="images/Event01.png" alt="" />
                     </div>
                     <div class="span6">
                         <div class="project-description">
                             <div class="project-title clearfix">
-                                <h3>Project for Some Client</h3>
+                                <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                                 <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                             </div>
                             <div class="project-info">
                                 <div>
-                                    <span>Client</span>Some Client Name</div>
+                                    <span>หน่วยงาน :</span>พันธกิจสัมพันธ์มหาวิทยาลัยกับสังคม สำนักวิจัยและพัฒนา</div>
                                 <div>
-                                    <span>Date</span>July 2013</div>
+                                    <span>สถานที่จัด :</span>ศูนย์ประชุมนานาชาตฉลองสิริราชสมบัติครบ 60 ปี</div>
                                 <div>
-                                    <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <span>วันที่ :</span>26 มีนาคม 60 </div>
                                 <div>
-                                    <span>Link</span>http://examplecomp.com</div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
-                            <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                            <p>หมายเหตุ: </p>
                         </div>
                     </div>
                 </div>
@@ -250,29 +281,37 @@
                 </div>
                 <!-- End details for portfolio project 5 -->
                 <!-- Start details for portfolio project 6 -->
-                <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                     <div class="span6">
-                        <img src="images/Portfolio06.png" alt="project 6">
+                        <img src="images/Event01.png" alt="" />
                     </div>
                     <div class="span6">
                         <div class="project-description">
                             <div class="project-title clearfix">
-                                <h3>Webste for Some Client</h3>
+                                <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                                 <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                             </div>
                             <div class="project-info">
                                 <div>
-                                    <span>Client</span>Some Client Name</div>
+                                    <span>หน่วยงาน :</span>พันธกิจสัมพันธ์มหาวิทยาลัยกับสังคม สำนักวิจัยและพัฒนา</div>
                                 <div>
-                                    <span>Date</span>July 2013</div>
+                                    <span>สถานที่จัด :</span>ศูนย์ประชุมนานาชาตฉลองสิริราชสมบัติครบ 60 ปี</div>
                                 <div>
-                                    <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <span>วันที่ :</span>26 มีนาคม 60 </div>
                                 <div>
-                                    <span>Link</span>http://examplecomp.com</div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
-                            <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+                            <p>หมายเหตุ: </p>
                         </div>
                     </div>
                 </div>
@@ -280,67 +319,61 @@
                 <ul id="portfolio-grid" class="thumbnails row">
                     <li class="span4 mix web">
                         <div class="thumbnail">
-                            <img src="images/Portfolio01.png" alt="project 1">
+                            <img src="images/Event01.png" alt="">
                             <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                 <i class="icon-plus"></i>
                             </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
-                            <div class="mask"></div>
-                        </div>
-                    </li>
-                    <li class="span4 mix photo">
-                        <div class="thumbnail">
-                            <img src="images/Portfolio02.png" alt="project 2">
-                            <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
-                                <i class="icon-plus"></i>
-                            </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
-                            <div class="mask"></div>
-                        </div>
-                    </li>
-                    <li class="span4 mix identity">
-                        <div class="thumbnail">
-                            <img src="images/Portfolio03.png" alt="project 3">
-                            <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
-                                <i class="icon-plus"></i>
-                            </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                             <div class="mask"></div>
                         </div>
                     </li>
                     <li class="span4 mix web">
                         <div class="thumbnail">
-                            <img src="images/Portfolio04.png" alt="project 4">
-                            <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                            <img src="images/Event01.png" alt="">
+                            <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                 <i class="icon-plus"></i>
                             </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                             <div class="mask"></div>
                         </div>
                     </li>
-                    <li class="span4 mix photo">
+                    <li class="span4 mix web">
                         <div class="thumbnail">
-                            <img src="images/Portfolio05.png" alt="project 5">
-                            <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                            <img src="images/Event01.png" alt="">
+                            <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                 <i class="icon-plus"></i>
                             </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                             <div class="mask"></div>
                         </div>
                     </li>
-                    <li class="span4 mix identity">
+                    <li class="span4 mix web">
                         <div class="thumbnail">
-                            <img src="images/Portfolio06.png" alt="project 6">
-                            <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                            <img src="images/Event01.png" alt="">
+                            <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                 <i class="icon-plus"></i>
                             </a>
-                            <h3>Thumbnail label</h3>
-                            <p>Thumbnail caption...</p>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
+                            <div class="mask"></div>
+                        </div>
+                    </li>
+                    <li class="span4 mix web">
+                        <div class="thumbnail">
+                            <img src="images/Event01.png" alt="">
+                            <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                <i class="icon-plus"></i>
+                            </a>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
+                            <div class="mask"></div>
+                        </div>
+                    </li>
+                   <li class="span4 mix web">
+                        <div class="thumbnail">
+                            <img src="images/Event01.png" alt="">
+                            <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                <i class="icon-plus"></i>
+                            </a>
+                            <h3>เสวนาทางวิชการเรื่องคลองไทย..พื้นที่ได้ประโยชน์อะไร ครั้งที่ 1</h3>
                             <div class="mask"></div>
                         </div>
                     </li>

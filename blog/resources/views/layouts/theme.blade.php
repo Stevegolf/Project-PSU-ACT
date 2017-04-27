@@ -27,7 +27,7 @@
 <div class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <a href="#" class="brand">
+                <a href="/index" class="brand">
                      <img src="images/LogoPSUAct.png" href="/index" width="120" height="40" alt="Logo" />
                     <!-- This is website logo -->
                 </a>
@@ -38,7 +38,7 @@
                 <!-- Main navigation -->
                 <div class="nav-collapse collapse pull-right">
                         <ul class="nav navbar-nav linkEffects linkHoverEffect_12">
-                        <li class="active"><a href="/index">Home</a></li>
+                        <li><a href="/index">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Transcript</span></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu agileinfo">
@@ -57,7 +57,7 @@
                                 <li><a href="/club">Club</a></li>
                             </ul>
                         </li>
-                        <li><a href="/doucment">Doucment</a></li>
+                        <li><a href="/document">Doucment</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>

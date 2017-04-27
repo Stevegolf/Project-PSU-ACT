@@ -51,7 +51,7 @@ h1 {
 p {
     padding: 10px;
     font-weight: 100;
-    color: #478bca;
+    color: #ffffff;
 }
 .navbar {
     background: #478bca;
@@ -465,7 +465,7 @@ p {
     padding:10px 0;
 }
 .project-info span {
-    width: 80px;
+    width: 140px;
     display: inline-block;
 }
 .project-info div {

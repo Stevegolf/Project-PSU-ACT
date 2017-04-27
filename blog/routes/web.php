@@ -13,13 +13,12 @@
 
 Route::resource('boards','Boards\\BoardsController');
 
-
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/contact','ContactController@contact');
-Route::get('/doucment','DoucmentController@doucment');
+Route::get('/document','DocumentController@document');
 Route::get('/club','ClubController@club');
 Route::get('/studentcouncil','StudentcouncilController@studentcouncil');
 Route::get('/studentunion','StudentunionController@studentunion');
@@ -28,7 +27,6 @@ Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
 Route::get('/event','EventController@event');
 Route::get('/index','IndexController@index');
-
 
 Route::get('/dashbord','DashbordController@dashbord');
 Route::post('/loginpsu','LoginController@login');
