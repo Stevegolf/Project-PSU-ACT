@@ -28,7 +28,16 @@ Route::get('/calendar','CalendarController@calendar');
 Route::get('/event','EventController@event');
 Route::get('/index','IndexController@index');
 
-Route::get('/dashboard','DashboardController@dashboard');
+Route::get('/admanageuser','AdmanageuserController@admanageuser');
+Route::get('/admessenger','AdmessengerController@admessenger');
+Route::get('/adreport','AdreportController@adreport');
+Route::get('/addoucment','AddoucmentController@addoucment');
+Route::get('/adcalendar','AdcalendarController@adcalendar');
+Route::get('/adevent','AdeventController@adevent');
+Route::get('/adnews','AdnewsController@adnews');
 Route::get('/adgallery','AdgalleryController@adgallery');
+Route::get('/dashboard','DashboardController@dashboard');
+
+
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
