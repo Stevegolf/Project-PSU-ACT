@@ -72,7 +72,7 @@
     @yield('content')
     <!-- Footer section start -->
     <div class="footer">
-        <p>&copy; Student Affairs <a href="http://www.phuket.psu.ac.th/index1.php">Prince of Songkla University, Phuket Campus</a>
+        <p>&copy; Student Union | Prince of Songkla University, Phuket Campus</a>
     </div>
     <!-- Footer section end -->
     <!-- ScrollUp button start -->

@@ -539,11 +539,10 @@
     <div id="contact" class="section secondary-section">
         <div class="container">
             <div class="title">
-                <p >กองกิจการนักศึกษา มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต </p>
+                <p >องค์การบริหาร องค์การนักศึกษา มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต </p>
                 <p>80 หมู่ 1 ถ.วิชิตสงคราม อ.กะทู้ จ.ภูเก็ต 83120</p>
-                <p>Phone: 0-7627-6061</p>
-                <p>Fax: 0-7627-6508</p>
-                <p >Student_Development@phuket.psu.ac.th</p>
+                <p>Phone: 0-7627-1234</p>
+                <p >student_union@gmail.com</p>
             </div>
         </div>
     </div>

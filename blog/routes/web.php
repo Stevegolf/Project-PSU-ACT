@@ -28,6 +28,7 @@ Route::get('/calendar','CalendarController@calendar');
 Route::get('/event','EventController@event');
 Route::get('/index','IndexController@index');
 
-Route::get('/dashbord','DashbordController@dashbord');
+Route::get('/dashboard','DashboardController@dashboard');
+Route::get('/adgallery','AdgalleryController@adgallery');
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
