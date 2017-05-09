@@ -141,6 +141,7 @@
                             <p>หมายเหตุ: </p>
                         </div>
                     </div>
+                    <a href="#" class="da-link button">Regist Online</a>
                 </div>
                 <!-- End details for portfolio project 1 -->
                 <!-- Start details for portfolio project 2 -->
@@ -177,6 +178,7 @@
                             <p>หมายเหตุ: </p>
                         </div>
                     </div>
+                    <a href="#" class="da-link button">Regist Online</a>
                 </div>
                 <!-- End details for portfolio project 2 -->
                 <!-- Start details for portfolio project 3 -->
@@ -213,6 +215,7 @@
                             <p>หมายเหตุ: </p>
                         </div>
                     </div>
+                    <a href="#" class="da-link button">Regist Online</a>
                 </div>
                 <!-- End details for portfolio project 3 -->
                 <!-- Start details for portfolio project 4 -->
@@ -249,6 +252,7 @@
                             <p>หมายเหตุ: </p>
                         </div>
                     </div>
+                    <a href="#" class="da-link button">Regist Online</a>
                 </div>
                 <!-- End details for portfolio project 4 -->
                 <!-- Start details for portfolio project 5 -->
