@@ -41,3 +41,15 @@ Route::get('/dashboard','DashboardController@dashboard');
 
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
+
+Auth::routes();
+Route::get('/home', 'HomeController@index');
+
+
+
+
+
+
+
+
+

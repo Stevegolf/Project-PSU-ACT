@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class GalleryController extends Controller
 {
     function gallery(){
-      return view('gallery');
+      return view('user/gallery');
     }
 
 

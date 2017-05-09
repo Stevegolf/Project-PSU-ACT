@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     function news(){
-      return view('news');
+      return view('user/news');
     }
 
 

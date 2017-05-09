@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdgalleryController extends Controller
 {
     function adgallery(){
-      return view('adgallery');
+      return view('admin/adgallery');
     }
 }

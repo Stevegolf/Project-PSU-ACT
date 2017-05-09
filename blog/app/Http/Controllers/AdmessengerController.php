@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdmessengerController extends Controller
 {
     function admessenger(){
-      return view('admessenger');
+      return view('admin/admessenger');
     }
 }

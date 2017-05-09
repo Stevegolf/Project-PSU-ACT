@@ -154,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
         <section class="title-bar">
             <div class="logo">
-                <h1><a href="index.html"><img src="admin/images/logo.png" alt="" />Colored</a></h1>
+                <h1><img src="images/Logo PSUActBackend.png" href="/index" width="240" height="50" alt="Logo" /></h1>
             </div>
             <div class="full-screen">
                 <section class="full-top">

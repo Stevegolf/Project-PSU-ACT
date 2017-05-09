@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdmanageuserController extends Controller
 {
     function admanageuser(){
-      return view('admanageuser');
+      return view('admin/admanageuser');
     }
 }

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class DocumentController extends Controller
 {
     function document(){
-      return view('document');
+      return view('user/document');
     }
 
 

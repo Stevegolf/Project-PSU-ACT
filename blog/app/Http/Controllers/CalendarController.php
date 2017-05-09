@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class CalendarController extends Controller
 {
     function calendar(){
-      return view('calendar');
+      return view('user/calendar');
     }
 
 

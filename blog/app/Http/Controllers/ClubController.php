@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class ClubController extends Controller
 {
     function club(){
-      return view('club');
+      return view('user/club');
     }
 
 
