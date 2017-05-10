@@ -415,8 +415,8 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/Team1.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/gallery/Sribluegame.jpg" alt="team 1">
+                        <h3>สีบลูเกมครั้งที่ 17</h3>
                         <ul class="social">
                             <li>
                                 <a href="">
@@ -435,15 +435,15 @@
                             </li>
                         </ul>
                         <div class="mask">
-                            <h2>Copywriter</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>สีบลูเกมครั้งที่ 17</h2>
+                            <p>การแข่งขันกี่ฬามหาวิทยาลัย สีบลูเกมครั้งที่17</p>
                         </div>
                     </div>
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/Team2.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/gallery/krue.jpg" alt="team 1">
+                        <h3>ไหว์ครู 2016</h3>
                         <ul class="social">
                             <li>
                                 <a href="">
@@ -462,15 +462,15 @@
                             </li>
                         </ul>
                         <div class="mask">
-                            <h2>Designer</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>ไหว์ครู 2016</h2>
+                            <p>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ตจัดพิธีไหว้ึครู เนื่องในวันครู</p>
                         </div>
                     </div>
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/Team3.png" alt="team 1">
-                        <h3>John Doe</h3>
+                        <img src="images/gallery/5wit.jpg" alt="team 1">
+                        <h3>การแข่งขันกีฬา5วิทยาเขต</h3>
                         <ul class="social">
                             <li>
                                 <a href="">
@@ -489,8 +489,8 @@
                             </li>
                         </ul>
                         <div class="mask">
-                            <h2>Photographer</h2>
-                            <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            <h2>การแข่งขันกีฬา5วิทยาเขต</h2>
+                            <p>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ตร่วมการแข่งขันกีฬา5วิทยาเขต ณ ม.อ. สุราษฏร์</p>
                         </div>
                     </div>
                 </div>
