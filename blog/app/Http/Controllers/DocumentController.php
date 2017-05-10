@@ -7,7 +7,7 @@ class DocumentController extends Controller
 {
     function document(){
       return view('user/document');
-    }
 
+    }
 
 }

@@ -57,7 +57,7 @@
                                 <li><a href="/club">Club</a></li>
                             </ul>
                         </li>
-                        <li><a href="/document">Doucment</a></li>
+                        <li><a href="/document">Document</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
