@@ -15,12 +15,12 @@
                 <!-- Start first slide -->
                 <div class="da-slide">
                     <h2 class="fittext2"></h2>
-                    <h2 class="fittext2">Welcome to Student Activity Management</h2>
-                    <h4>Easy for use to everyone</h4>
-                    <p>Student Activity Management is about ...</p>
+                    <h2 class="fittext2">FRESHY NIGHT PARTY!</h2>
+                    <h4>มาแล้ววววว!!! เตรียมพบกับ BIG ASS ใน 'FRESHY NIGHT PARTY!'</h4>
+                    <p>มาแล้วกิจกรรม FRESHY NIGHT PARTY! เตียมพบกับ Big Ass</p>
                     <a href="#" class="da-link button">Read more</a>
                     <div class="da-img">
-                        <img src="images/Slider01.jpg" alt="image01" width="320">
+                        <img src="images/event/Bigass.jpg" alt="image01" width="320">
                     </div>
                 </div>
                 <!-- End first slide -->
@@ -98,7 +98,6 @@
         </div>
     </div>
     <!-- News section end -->
-
 <!-- Event  section start -->
         <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>

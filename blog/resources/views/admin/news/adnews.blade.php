@@ -14,7 +14,7 @@
 	            <h2>News Managemant</h2>
 	        </div>
 	        <div class="pull-right">
-	            <a class="btn btn-success" href=""> Create New User</a>
+	            <a class="btn btn-success" href=""> Create News</a>
 	        </div>
 	    </div>
 	</div><br>
@@ -25,10 +25,9 @@
 			<th>Deteil</th>
 			<th>Post By</th>
 			<th>Email</th>
-			
 			<th width="280px">Action</th>
 		</tr>
-	
+
 	<tr>
 		<td>1</td>
 		<td>PSU Walk Rally Episode 1</td>
