@@ -14,15 +14,16 @@
 	            <h2>User Management</h2>
 	        </div>
 	        <div class="pull-right">
-	            <a class="btn btn-success" href=""> Create New Item</a>
+	            <a class="btn btn-success" href=""> Create New User</a>
 	        </div>
 	    </div>
 	</div><br>
-<table class="table table-bordered">
+<table class="table table-striped table-hover">
 		<tr>
 			<th>No</th>
 			<th>Username</th>
 			<th>Email</th>
+			<th>Role</th>
 			<th width="280px">Action</th>
 		</tr>
 	
@@ -30,6 +31,7 @@
 		<td>1</td>
 		<td>Piyaphan.C</td>
 		<td>piyaphan6929@gmail.com</td>
+		<td>Admin</td>
 		<td>
 			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
@@ -39,6 +41,7 @@
 		<td>2</td>
 		<td>Akkharphon.S</td>
 		<td>sakamoto@gmail.com</td>
+		<td>User</td>
 		<td>
 			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
