@@ -276,92 +276,9 @@
                         </div>
                     </div>
                     <!-- End details for portfolio project 6 -->
-                    <!-- Start details for portfolio project 7 -->
-                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio07.png" alt="project 7">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 7 -->
-                    <!-- Start details for portfolio project 8 -->
-                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio08.png" alt="project 8">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 8 -->
-                    <!-- Start details for portfolio project 9 -->
-                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio09.png" alt="project 9">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 9 -->
+
                     <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4 mix web">
+                        <li class="span4">
                             <div class="thumbnail">
                                 <img src="images/event/Bigass.jpg" alt="project 1">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
@@ -372,7 +289,7 @@
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix photo">
+                        <li class="span4">
                             <div class="thumbnail">
                                 <img src="images/event/Club.jpg" alt="project 2">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
@@ -427,39 +344,7 @@
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio07.png" alt="project 7" />
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio08.png" alt="project 8">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix identity">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio09.png" alt="project 9">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </div>

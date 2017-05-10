@@ -40,14 +40,14 @@
                         <ul class="nav navbar-nav linkEffects linkHoverEffect_12">
                         <li><a href="/index">Home</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Transcript</span></span> <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Activity</span></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu agileinfo">
-                                <li><a href="/event">Registration Online</a></li>
+                                <li><a href="/news">News</a></li>
+                                <li><a href="/event">Online Registration </a></li>
                                 <li><a href="/calendar">Calendar</a></li>
                                 <li><a href="https://student.psu.ac.th/TS234/" target="_blank">Check Transcript</a></li>
                             </ul>
                         </li>
-                        <li><a href="/news">News</a></li>
                         <li><a href="/gallery">Gallery</a></li>
                          <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Student Union</span></span> <b class="caret"></b></a>
@@ -59,11 +59,14 @@
                         </li>
                         <li><a href="/document">Document</a></li>
                         <li><a href="/contact">Contact</a></li>
+                        <li><a href="/loginpsu">Login</a></li>
                     </ul>
                 </div>
+
                 <!-- End main navigation -->
             </div>
         </div>
+
     </div>
     @section('sidebar')
     @show
