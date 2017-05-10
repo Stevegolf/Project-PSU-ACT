@@ -294,12 +294,12 @@
                     <!-- Start details for portfolio project 6 -->
                     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio06.png" alt="project 6">
+                            <img src="images/event/Sribluegame.jpg" alt="project 6">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>พิธีเปิดการแข่งขันกีฬาสีบลูเกมส์ครั้งที่ 17</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -325,9 +325,10 @@
                                <p>หมายเหตุ: </p>
                             </div>
                         </div>
+                         <a href="#" class="white-text da-link button">Regist Online</a>
                         </div>
-                           <a href="#" class="white-text da-link button">Regist Online</a>
-                    </div>
+                          
+                   
                     <!-- End details for portfolio project 6 -->
 
 
