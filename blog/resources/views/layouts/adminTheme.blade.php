@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
               <li>
-                <a href="/addoucment">
+                <a href="/addocument">
                     <i class="glyphicon glyphicon-folder-open nav-icon"></i>
                     <span class="nav-text">
                     Doucment
@@ -154,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
         <section class="title-bar">
             <div class="logo">
-                <h1><img src="images/Logo PSUActBackend.png" href="/index" width="240" height="50" alt="Logo" /></h1>
+                <h1><img src="images/Logo PSUActBackend.png" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
             </div>
             <div class="full-screen">
                 <section class="full-top">

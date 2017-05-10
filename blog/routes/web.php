@@ -31,7 +31,7 @@ Route::get('/index','IndexController@index');
 Route::get('/admanageuser','AdmanageuserController@admanageuser');
 Route::get('/admessenger','AdmessengerController@admessenger');
 Route::get('/adreport','AdreportController@adreport');
-Route::get('/addoucment','AddoucmentController@addoucment');
+Route::get('/addocument','AddocumentController@addocument');
 Route::get('/adcalendar','AdcalendarController@adcalendar');
 Route::get('/adevent','AdeventController@adevent');
 Route::get('/adnews','AdnewsController@adnews');

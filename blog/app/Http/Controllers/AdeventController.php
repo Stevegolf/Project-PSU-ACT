@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdeventController extends Controller
 {
    function adevent(){
-      return view('admin/adevent');
+      return view('admin/event/adevent');
     }
 }

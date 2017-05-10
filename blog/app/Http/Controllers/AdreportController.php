@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdreportController extends Controller
 {
     function adreport(){
-      return view('admin/adreport');
+      return view('admin/report/adreport');
     }
 }
