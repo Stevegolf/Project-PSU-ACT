@@ -24,7 +24,6 @@
 			<th>Detail</th>
 			<th width="280px">Action</th>
 		</tr>
-	
 	<tr>
 		<td>1</td>
 		<td>Pongsakon</td>

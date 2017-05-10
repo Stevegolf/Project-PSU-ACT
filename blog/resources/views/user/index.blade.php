@@ -98,6 +98,8 @@
         </div>
     </div>
     <!-- News section end -->
+
+
 <!-- Event  section start -->
         <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>
@@ -403,8 +405,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio section end -->
-
+        <!-- Event section end -->
 
     <!-- Gallery section start -->
     <div class="section primary-section" id="about">
