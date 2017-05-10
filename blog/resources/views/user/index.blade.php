@@ -116,24 +116,33 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>มาแล้ววววว!!! เตรียมพบกับ BIG ASS ใน 'FRESHY NIGHT PARTY!'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+                                    <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา</div>
+                                <div>
+                                    <span>สถานที่จัด :</span>สนามบาสหลังคาคลุม</div>
+                                <div>
+                                    <span>วันที่ :</span>28 ตุลาคม 2559 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>16.00 - 22.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>1500 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>27 ตุลาคม 2559</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านภูมิในสถาบัน</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>6 ชั่วโมง</div>
                             </div>
+                            <p>หมายเหตุ: สามารถเข้าร่วมได้เฉพาะนักศึกษามหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ตเท่านั้น</p>
                         </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
                     </div>
                     <!-- End details for portfolio project 1 -->
                     <!-- Start details for portfolio project 2 -->
@@ -144,24 +153,33 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>เปิดโลกกิจกรรม 'New Gen New Skill'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                                    <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา</div>
+                                <div>
+                                    <span>สถานที่จัด :</span>สนามบาสหลังคาคลุม</div>
+                                <div>
+                                    <span>วันที่ :</span>24 สิงหาคม 2559 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>16.00 - 22.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>900 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>22 สิงหาคม 2559</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านภูมิในสถาบัน และ ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>6 ชั่วโมง</div>
                             </div>
+                            <p>หมายเหตุ: เฉพาะนักศึกษาชั้นปีที่1 เท่านั้น</p>
                         </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
                     </div>
                     <!-- End details for portfolio project 2 -->
                     <!-- Start details for portfolio project 3 -->
@@ -172,24 +190,33 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>ขอเชิญเข้าร่วมโครงการ 3 ล้าน 3 ปี เลิกสูบบุหรี่ทั่วไทย</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                                <div>
+                                    <span>หน่วยงาน :</span>สโมสรนักศึกษา คณะเทคโนโลยีและสิ่งแวดล้อม</div>
+                                <div>
+                                    <span>สถานที่จัด :</span>อาคารเรียนรวมและศูนย์การเรียนรู้ ปฎิบัติการกลาง(อาคาร 6 ) ห้อง 6310 </div>
+                                <div>
+                                    <span>วันที่ :</span>29 มีนาคม 60 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>13.30-16.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>200 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
                             </div>
+                            <p>หมายเหตุ: </p>
                         </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
                     </div>
                     <!-- End details for portfolio project 3 -->
                     <!-- Start details for portfolio project 4 -->
@@ -200,24 +227,33 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Project for Some Client</h3>
+                                    <h3>วิ่งไปทู้ Run to Kathu</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                                    <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา</div>
+                                <div>
+                                    <span>สถานที่จัด :</span>วัดกะทู้</div>
+                                <div>
+                                    <span>วันที่ :</span>24 กันยายน 2559 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>06.00-12.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>1000 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>20 กันยายน 2559</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านสุขภาพ</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>6 ชั่วโมง</div>
                             </div>
+                            <p>หมายเหตุ: </p>
                         </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
                     </div>
                     <!-- End details for portfolio project 4 -->
                     <!-- Start details for portfolio project 5 -->
@@ -228,41 +264,59 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>SriBlue Games 17th สีบูลเกมส์ ครั้งที่ 17</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                                    <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา </div>
+                                <div>
+                                    <span>สถานที่จัด :</span>มหาวิทยาลัยสงขลานครินทร์ วิทยาเบตภูเก็ต</div>
+                                <div>
+                                    <span>วันที่ :</span>12 มกราคม - 12 กุมภาพันธ์ 60 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>16.30-22.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>ไม่จำกัดจำนวนคน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>10 มกราคม 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านสุขภาพ และทักษะทางสังคม</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>60 ชั่วโมง</div>
                             </div>
+                            <p>หมายเหตุ: </p>
                         </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
                     </div>
                     <!-- End details for portfolio project 5 -->
                     <!-- Start details for portfolio project 6 -->
                     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                         <div class="span6">
+<<<<<<< HEAD
                             <img src="images/Portfolio06.png" alt="project 6">
+=======
+                            <img src="images/event/Close.jpg" alt="project 6">
+>>>>>>> origin/master
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
+<<<<<<< HEAD
                                     <h3>Webste for Some Client</h3>
+=======
+                                    <h3>เชิญชวนเข้าร่วมพิธีปิดกีฬาสีบูลเกมส์ ครั้งที่ 17</h3>
+>>>>>>> origin/master
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
+<<<<<<< HEAD
                                         <span>Client</span>Some Client Name</div>
                                     <div>
                                         <span>Date</span>July 2013</div>
@@ -277,6 +331,32 @@
                     </div>
                     <!-- End details for portfolio project 6 -->
 
+=======
+                                    <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา</div>
+                                <div>
+                                    <span>สถานที่จัด :</span>สนามบาสหลังคาคลุม</div>
+                                <div>
+                                    <span>วันที่ :</span>12 กุภาพันธ์ 60 </div>
+                                <div>
+                                    <span>ช่วงเวลา :</span>09.30-15.00 น.</div>
+                                <div>
+                                    <span>จำนวนรับสมัคร :</span>49 คน</div>
+                                <div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>10 กุมภาพันธ์ 60</div>
+                                <div>
+                                    <span>ประเภทกิจกรรม :</span>ด้านทักษะสังคม</div>
+                                <div>
+                                    <span>จำนวนชั่วโมง :</span>3 ชั่วโมง</div>
+                            </div>
+                            <p>หมายเหตุ: </p>
+                        </div>
+                    </div>
+                    <a href="#" class="white-text da-link button">Regist Online</a>
+                    </div>
+                    <!-- End details for portfolio project 6 -->
+                    
+                    
+>>>>>>> origin/master
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4">
                             <div class="thumbnail">
@@ -284,8 +364,8 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>มาแล้ววววว!!! เตรียมพบกับ BIG ASS ใน 'FRESHY NIGHT PARTY!'</h3>
+                                <p>ในวันที่ 28 ตุลาคม 2559 นี้</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -295,8 +375,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>เปิดโลกกิจกรรม 'New Gen New Skill'</h3>
+                                <p>ในวันที่ 24 สิงหาคม 2559 นี้เจอกัน!!</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -306,8 +386,8 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>ขอเชิญเข้าร่วมโครงการ 3 ล้าน 3 ปี เลิกสูบบุหรี่ทั่วไทย</h3>
+                                <p>ในวันที่ 29 มีนาคม 2560</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -317,8 +397,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>วิ่งไปทู้ Run to Kathu</h3>
+                                <p>เริ่มวิ่งกันที่ ม.อ. ปลายทางวัดกะทู้ จ้าา</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -328,23 +408,32 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>SriBlue Games 17th สีบูลเกมส์ ครั้งที่ 17</h3>
+                                <p>มาร่วมเชียร์นักกีฬากันได้เล้ยยย</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
                         <li class="span4 mix identity">
                             <div class="thumbnail">
-                                <img src="images/Portfolio06.png" alt="project 6">
+                                <img src="images/event/Close.jpg" alt="project 6">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
+<<<<<<< HEAD
                                 <h3>Thumbnail label</h3>
                                 <p>Thumbnail caption...</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
 
+=======
+                                <h3>เชิญชวนเข้าร่วมพิธีปิดกีฬาสีบูลเกมส์</h3>
+                                <p>แล้วมาดูวันว่าปีนี้ใครจะได้ครอง The Bast of Sriblue Game 17th</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                                       
+>>>>>>> origin/master
                     </ul>
                 </div>
             </div>
