@@ -329,11 +329,8 @@
                         </div>
                          <a href="#" class="white-text da-link button">Regist Online</a>
                         </div>
-                          
-                   
+
                     <!-- End details for portfolio project 6 -->
-
-
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix web">
                             <div class="thumbnail">
@@ -515,40 +512,31 @@
                 </div>
                 <ul class="row client-slider" id="clint-slider">
                     <li>
-                        <a href="">
+                        <a href="https://te.psu.ac.th/">
                             <img src="images/clients/ClientLogo01.png" alt="client logo 1">
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://fis.psu.ac.th/">
                             <img src="images/clients/ClientLogo02.png" alt="client logo 2">
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="http://www.fht.psu.ac.th/fht/index.php/th/">
                             <img src="images/clients/ClientLogo03.png" alt="client logo 3">
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="http://www.coe.phuket.psu.ac.th/">
                             <img src="images/clients/ClientLogo04.png" alt="client logo 4">
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="http://www.phuket.psu.ac.th/intro/">
                             <img src="images/clients/ClientLogo05.png" alt="client logo 5">
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="images/clients/ClientLogo02.png" alt="client logo 6">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="images/clients/ClientLogo04.png" alt="client logo 7">
-                        </a>
-                    </li>
+
                 </ul>
             </div>
         </div>
