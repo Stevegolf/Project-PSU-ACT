@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class StudentcouncilController extends Controller
 {
     function Studentcouncil(){
-      return view('user/studentunion');
+      return view('user/studentcouncil');
     }
 
 
