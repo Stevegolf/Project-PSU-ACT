@@ -512,27 +512,27 @@
                 </div>
                 <ul class="row client-slider" id="clint-slider">
                     <li>
-                        <a href="https://te.psu.ac.th/">
+                        <a href="https://te.psu.ac.th/" target="_blank">
                             <img src="images/clients/ClientLogo01.png" alt="client logo 1">
                         </a>
                     </li>
                     <li>
-                        <a href="https://fis.psu.ac.th/">
+                        <a href="https://fis.psu.ac.th/" target="_blank">
                             <img src="images/clients/ClientLogo02.png" alt="client logo 2">
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.fht.psu.ac.th/fht/index.php/th/">
+                        <a href="http://www.fht.psu.ac.th/fht/index.php/th/" target="_blank">
                             <img src="images/clients/ClientLogo03.png" alt="client logo 3">
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.coe.phuket.psu.ac.th/">
+                        <a href="http://www.coe.phuket.psu.ac.th/" target="_blank">
                             <img src="images/clients/ClientLogo04.png" alt="client logo 4">
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.phuket.psu.ac.th/intro/">
+                        <a href="http://www.phuket.psu.ac.th/intro/" target="_blank">
                             <img src="images/clients/ClientLogo05.png" alt="client logo 5">
                         </a>
                     </li>
