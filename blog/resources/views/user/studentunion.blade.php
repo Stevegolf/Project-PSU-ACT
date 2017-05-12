@@ -45,6 +45,50 @@
         <div class="title">
             <h3>We Are Social</h3>
         </div>
-    </div></text>
+    </div>
+        <div class="row-fluid centered">
+                        <ul class="social">
+                            <li>
+                                <a href="">
+                                    <span class="icon-facebook-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-twitter-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-linkedin-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-pinterest-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-dribbble-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-gplus-circled"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+    </text>
 
 @endsection
