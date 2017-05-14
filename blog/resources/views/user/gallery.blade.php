@@ -45,7 +45,7 @@
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
                         <img src="images/gallery/krue.jpg" alt="team 1">
-                        <h3>ไหว์ครู 2016</h3>
+                        <h3>ไหว้ครู 2016</h3>
                         <ul class="social">
                             <li>
                                 <a href="">
@@ -64,7 +64,7 @@
                             </li>
                         </ul>
                         <div class="mask">
-                            <h2>ไหว์ครู 2016</h2>
+                            <h2>ไหว้ครู 2016</h2>
                             <p>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ตจัดพิธีไหว้ึครู เนื่องในวันครู</p>
                         </div>
                     </div>

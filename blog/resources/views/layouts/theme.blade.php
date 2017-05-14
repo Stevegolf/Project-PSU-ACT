@@ -62,7 +62,6 @@
                             <ul class="dropdown-menu agileinfo">
                                 <li><a href="/studentunion">Student Union</a></li>
                                 <li><a href="/studentcouncil">Student Council</a></li>
-                                <li><a href="/club">Club</a></li>
                             </ul>
                         </li>
                         <li><a href="/document">Document</a></li>
