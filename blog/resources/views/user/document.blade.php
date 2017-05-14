@@ -28,7 +28,7 @@
     <body>
     <!-- table of activity for student -->
     <div class="container">
-      <text><h2>คำขอร้องทั่วไป</h2><br>
+      <text><h2>เอกสารในการจัดโครงการ</h2><br>
       <!-- The .table-condensed class makes a table more compact by cutting cell padding in half: -->
       <table class="table table-condensed">
         <thead>
