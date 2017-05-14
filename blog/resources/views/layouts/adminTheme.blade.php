@@ -181,7 +181,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                     </li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="images/1.png" alt=""></div>
+                                       <div class="user_img"><img src="admin/images/1.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet</p>
                                         <p><span>1 hour ago</span></p>
@@ -189,7 +189,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                        <div class="clearfix"></div> 
                                     </a></li>
                                     <li class="odd"><a href="#">
-                                        <div class="user_img"><img src="images/2.png" alt=""></div>
+                                        <div class="user_img"><img src="admin/images/2.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>
@@ -197,7 +197,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <div class="clearfix"></div>  
                                     </a></li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="images/3.png" alt=""></div>
+                                       <div class="user_img"><img src="admin/images/3.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>
@@ -211,49 +211,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown head-dpdn">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">3</span></a>
-                                <ul class="dropdown-menu anti-dropdown-menu agile-notification">
-                                    <li>
-                                        <div class="notification_header">
-                                            <h3>You have 3 new notifications</h3>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">
-                                        <div class="user_img"><img src="images/2.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet</p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                      <div class="clearfix"></div>  
-                                     </a></li>
-                                     <li class="odd"><a href="#">
-                                        <div class="user_img"><img src="images/1.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet </p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                       <div class="clearfix"></div> 
-                                     </a></li>
-                                     <li><a href="#">
-                                        <div class="user_img"><img src="images/3.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet </p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                       <div class="clearfix"></div> 
-                                     </a></li>
-                                     <li>
-                                        <div class="notification_bottom">
-                                            <a href="#">See all notifications</a>
-                                        </div> 
-                                    </li>
-                                </ul>
-                            </li>          
+
                             <div class="clearfix"> </div>
                         </ul>
                     </div>  
-                    <div class="profile_details">       
+                    <div class="profile_details">
                         <ul>
                             <li class="dropdown profile_details_drop">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
