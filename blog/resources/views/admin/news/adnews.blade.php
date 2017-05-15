@@ -35,7 +35,7 @@
 		<td>Aekkamon.N</td>
 		<td>Activity</td>
 		<td>
-			<a class="btn btn-info" href="">Appove</a>
+			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
 			<a class="btn btn-success" href="">Delete</a>
 		</td>
@@ -47,7 +47,7 @@
 		<td>Aekkamon.N</td>
 		<td>General</td>
 		<td>
-			<a class="btn btn-info" href="">Appove</a>
+			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
 			<a class="btn btn-success" href="">Delete</a>
 		</td>

@@ -50,7 +50,7 @@
                                 <p>หมายเหตุ: สามารถเข้าร่วมได้เฉพาะนักศึกษามหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ตเท่านั้น</p>
                             </div>
                         </div>
-                         <a href="#" class="white-text da-link button">Regist Online</a>
+                         <a href="#" class="white-text da-link button">Register</a>
                     </div>
                     <!-- End details for portfolio project 1 -->
                     <!-- Start details for portfolio project 2 -->
@@ -87,7 +87,7 @@
                                 < <p>หมายเหตุ: เฉพาะนักศึกษาชั้นปีที่1 เท่านั้น</p>
                             </div>
                         </div>
-                         <a href="#" class="white-text da-link button">Regist Online</a>
+                         <a href="#" class="white-text da-link button">Register</a>
                     </div>
                     <!-- End details for portfolio project 2 -->
                     <!-- Start details for portfolio project 3 -->
@@ -124,7 +124,7 @@
                                <p>หมายเหตุ: </p>
                             </div>
                         </div>
-                         <a href="#" class="white-text da-link button">Regist Online</a>
+                         <a href="#" class="white-text da-link button">Register</a>
                     </div>
                     <!-- End details for portfolio project 3 -->
                     <!-- Start details for portfolio project 4 -->
@@ -161,7 +161,7 @@
                                  <p>หมายเหตุ: </p>
                             </div>
                         </div>
-                           <a href="#" class="white-text da-link button">Regist Online</a>
+                           <a href="#" class="white-text da-link button">Register</a>
                     </div>
                     <!-- End details for portfolio project 4 -->
                     <!-- Start details for portfolio project 5 -->
@@ -198,7 +198,7 @@
                                  <p>หมายเหตุ: </p>
                         </div>
                     </div>
-                       <a href="#" class="white-text da-link button">Regist Online</a>
+                       <a href="#" class="white-text da-link button">Register</a>
                     </div>
                     <!-- End details for portfolio project 5 -->
                     <!-- Start details for portfolio project 6 -->
@@ -235,7 +235,7 @@
                                <p>หมายเหตุ: </p>
                             </div>
                         </div>
-                         <a href="#" class="white-text da-link button">Regist Online</a>
+                         <a href="#" class="white-text da-link button">Register</a>
                         </div>
 
 

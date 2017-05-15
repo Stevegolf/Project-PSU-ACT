@@ -51,7 +51,7 @@
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Activity</span></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu agileinfo">
                                 <li><a href="/news">News</a></li>
-                                <li><a href="/event">Online Registration </a></li>
+                                <li><a href="/event">Register </a></li>
                                 <li><a href="/calendar">Calendar</a></li>
                                 <li><a href="https://student.psu.ac.th/TS234/" target="_blank">Check Transcript</a></li>
                             </ul>

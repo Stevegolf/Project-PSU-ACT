@@ -37,7 +37,7 @@
 		<td>องค์การบริหาร องค์การนักศึกษา</td>
 		<td>ภูมิในสถาบัน</td>
 		<td>
-			<a class="btn btn-info" href="">Appove</a>
+			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
 			<a class="btn btn-success" href="">Delete</a>
 		</td>
@@ -50,7 +50,7 @@
 		<td>องค์การบริหาร องค์การนักศึกษา</td>
 		<td>ด้านสุขภาพ และทักษะทางสังคม</td>
 		<td>
-			<a class="btn btn-info" href="">Appove</a>
+			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
 			<a class="btn btn-success" href="">Delete</a>
 		</td>
