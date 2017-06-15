@@ -11,12 +11,7 @@
 |
 */
 
-Route::resource('boards','Boards\\BoardsController');
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
+//User Page
 Route::get('/contact','ContactController@contact');
 Route::get('/document','DocumentController@document');
 Route::get('/club','ClubController@club');
@@ -25,18 +20,21 @@ Route::get('/studentunion','StudentunionController@studentunion');
 Route::get('/gallery','GalleryController@gallery');
 Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
-Route::get('/event','EventController@event');
+Route::get('/activity','ActivityController@activity');
 Route::get('/index','IndexController@index');
-
-Route::get('/admanageuser','AdmanageuserController@admanageuser');
-Route::get('/admessenger','AdmessengerController@admessenger');
-Route::get('/adreport','AdreportController@adreport');
-Route::get('/addocument','AddocumentController@addocument');
-Route::get('/adcalendar','AdcalendarController@adcalendar');
-Route::get('/adevent','AdeventController@adevent');
-Route::get('/adnews','AdnewsController@adnews');
-Route::get('/adgallery','AdgalleryController@adgallery');
+//Admin Page
+Route::get('/manageuser','ManageuserController@manageuser');
+Route::get('/messenger','MessengerController@messenger');
+Route::get('/report','ReportController@report');
+Route::get('/managedocument','ManagedocumentController@managedocument');
+Route::get('/managecalendar','ManagecalendarController@managecalendar');
+Route::get('/managenews','ManagenewsController@managenews');
+Route::get('/managegallery','ManagegalleryController@managegallery');
 Route::get('/dashboard','DashboardController@dashboard');
+
+
+Route::resource('event','Admin\\EventController');
+Route::resource('events','Admin\\EventController');
 
 
 Route::post('/loginpsu','LoginController@login');
@@ -44,6 +42,8 @@ Route::get('/loginpsu','LoginController@viewlogin');
 
 Auth::routes();
 Route::get('/home', 'HomeController@index');
+
+
 
 
 

@@ -8,8 +8,8 @@
 @endsection
 
 @section('content')
- <!-- Event section start -->
-       <div class="section secondary-section " id="portfolio">
+<!-- Event  section start -->
+        <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
@@ -109,13 +109,13 @@
                                 <div>
                                     <span>สถานที่จัด :</span>อาคารเรียนรวมและศูนย์การเรียนรู้ ปฎิบัติการกลาง(อาคาร 6 ) ห้อง 6310 </div>
                                 <div>
-                                    <span>วันที่ :</span>29 มีนาคม 2560 </div>
+                                    <span>วันที่ :</span>29 มีนาคม 60 </div>
                                 <div>
-                                    <span>ช่วงเวลา :</span>13.30 - 16.00 น.</div>
+                                    <span>ช่วงเวลา :</span>13.30-16.00 น.</div>
                                 <div>
                                     <span>จำนวนรับสมัคร :</span>200 คน</div>
                                 <div>
-                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 2560</div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>25 มีนาคม 60</div>
                                 <div>
                                     <span>ประเภทกิจกรรม :</span>ด้านวิชาการ</div>
                                 <div>
@@ -172,7 +172,7 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                     <h3>SriBlue Games 17th สีบลูเกมส์ ครั้งที่ 17</h3>
+                                     <h3>SriBlue Games 17th สีบูลเกมส์ ครั้งที่ 17</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -181,15 +181,15 @@
                                     <div>
                                     <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา </div>
                                 <div>
-                                    <span>สถานที่จัด :</span>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</div>
+                                    <span>สถานที่จัด :</span>มหาวิทยาลัยสงขลานครินทร์ วิทยาเบตภูเก็ต</div>
                                 <div>
-                                    <span>วันที่ :</span>12 มกราคม - 12 กุมภาพันธ์ 2560 </div>
+                                    <span>วันที่ :</span>12 มกราคม - 12 กุมภาพันธ์ 60 </div>
                                 <div>
                                     <span>ช่วงเวลา :</span>16.30-22.00 น.</div>
                                 <div>
                                     <span>จำนวนรับสมัคร :</span>ไม่จำกัดจำนวนคน</div>
                                 <div>
-                                    <span>วันสิ้นสุดรับสมัคร :</span>10 มกราคม 2560</div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>10 มกราคม 60</div>
                                 <div>
                                     <span>ประเภทกิจกรรม :</span>ด้านสุขภาพ และทักษะทางสังคม</div>
                                 <div>
@@ -218,15 +218,15 @@
                                     <div>
                                     <span>หน่วยงาน :</span>องค์การบริหาร องค์การนักศึกษา </div>
                                 <div>
-                                    <span>สถานที่จัด :</span>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</div>
+                                    <span>สถานที่จัด :</span>มหาวิทยาลัยสงขลานครินทร์ วิทยาเบตภูเก็ต</div>
                                 <div>
-                                    <span>วันที่ :</span>12 มกราคม - 12 กุมภาพันธ์ 2560 </div>
+                                    <span>วันที่ :</span>12 มกราคม - 12 กุมภาพันธ์ 60 </div>
                                 <div>
                                     <span>ช่วงเวลา :</span>16.30-22.00 น.</div>
                                 <div>
                                     <span>จำนวนรับสมัคร :</span>ไม่จำกัดจำนวนคน</div>
                                 <div>
-                                    <span>วันสิ้นสุดรับสมัคร :</span>10 มกราคม 2560</div>
+                                    <span>วันสิ้นสุดรับสมัคร :</span>10 มกราคม 60</div>
                                 <div>
                                     <span>ประเภทกิจกรรม :</span>ด้านสุขภาพ และทักษะทางสังคม</div>
                                 <div>
@@ -238,10 +238,7 @@
                          <a href="#" class="white-text da-link button">Register</a>
                         </div>
 
-
                     <!-- End details for portfolio project 6 -->
-
-
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix web">
                             <div class="thumbnail">
@@ -313,7 +310,7 @@
                 </div>
             </div>
         </div>
-    <!-- Event section end -->
+        <!-- Event section end -->
 
 
 @endsection

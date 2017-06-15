@@ -14,7 +14,7 @@
 	            <h2>Event Managemant</h2>
 	        </div>
 	        <div class="pull-right">
-	            <a class="btn btn-success" href=""> Create News</a>
+	            <a class="btn btn-success"  href="/events/create"> Create Event</a>
 	        </div>
 	    </div>
 	</div><br>
@@ -56,4 +56,5 @@
 		</td>
 	</tr>
 	</table>
+
 @endsection

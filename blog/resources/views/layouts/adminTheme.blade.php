@@ -7,20 +7,20 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
-<link rel="stylesheet" href="admin/css/bootstrap.css">
+<link rel="stylesheet" href="/admin/css/bootstrap.css">
 <!-- //bootstrap-css -->
 <!-- Custom CSS -->
-<link href="admin/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/admin/css/style.css" rel='stylesheet' type='text/css' />
 <!-- font CSS -->
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <!-- font-awesome icons -->
-<link rel="stylesheet" href="admin/css/font.css" type="text/css"/>
-<link href="admin/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/admin/css/font.css" type="text/css"/>
+<link href="/admin/css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
-<script src="admin/js/jquery2.0.3.min.js"></script>
-<script src="admin/js/modernizr.js"></script>
-<script src="admin/js/jquery.cookie.js"></script>
-<script src="admin/js/screenfull.js"></script>
+<script src="/admin/js/jquery2.0.3.min.js"></script>
+<script src="/admin/js/modernizr.js"></script>
+<script src="/admin/js/jquery.cookie.js"></script>
+<script src="/admin/js/screenfull.js"></script>
         <script>
         $(function () {
             $('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
@@ -63,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
              <li>
-                <a href="/adnews">
+                <a href="/managenews">
                     <i class="fa fa-file-text-o nav_icon"></i>
                     <span class="nav-text">
                     News
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
              <li>
-                <a href="/adevent">
+                <a href="/event">
                     <i class="fa fa-check-square-o nav_icon"></i>
                     <span class="nav-text">
                     Event
@@ -79,7 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
             <li>
-                <a href="/adcalendar">
+                <a href="/managecalendar">
                     <i class="glyphicon glyphicon-calendar nav-icon"></i>
                     <span class="nav-text">
                     Calendar
@@ -87,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
             <li>
-                <a href="/adgallery">
+                <a href="/managegallery">
                     <i class="glyphicon glyphicon-picture nav-icon"></i>
                     <span class="nav-text">
                     Gallery
@@ -95,7 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
               <li>
-                <a href="/addocument">
+                <a href="/managedocument">
                     <i class="glyphicon glyphicon-folder-open nav-icon"></i>
                     <span class="nav-text">
                     Document
@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
             <li>
-                <a href="/adreport">
+                <a href="/report">
                     <i class="fa fa-bar-chart nav_icon"></i>
                     <span class="nav-text">
                     Report
@@ -111,7 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
              <li>
-                <a href="/admessenger">
+                <a href="/messenger">
                     <i class="glyphicon glyphicon-comment nav-icon"></i>
                     <span class=" nav-text">
                     Messages
@@ -119,7 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
             <li>
-                <a href="/admanageuser">
+                <a href="/manageuser">
                     <i class="glyphicon glyphicon-user nav-icon"></i>
                     <span class=" nav-text">
                     User
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
         <section class="title-bar">
             <div class="logo">
-                <h1><img src="images/Logo PSUActBackend.png" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
+                <h1><img src="{{url('images/LogoPSUActBackend.png')}}" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
             </div>
             <div class="full-screen">
                 <section class="full-top">
