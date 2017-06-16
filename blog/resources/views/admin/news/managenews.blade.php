@@ -25,6 +25,7 @@
 			<th>Deteil</th>
 			<th>Post By</th>
 			<th>Category</th>
+			<th>Test</th>
 			<th width="280px">Action</th>
 		</tr>
 
