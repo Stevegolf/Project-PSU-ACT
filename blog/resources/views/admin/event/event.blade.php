@@ -8,7 +8,8 @@
 @endsection
 
 @section('content')
-<div class="row">
+<div class="container">
+	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
 	            <h2>Event Managemant</h2>
@@ -18,26 +19,30 @@
 	        </div>
 	    </div>
 	</div><br>
-<table class="table table-striped table-hover">
+	<div class='panel panel-primary dialog-panel'>
+	<table class="table table-striped table-hover">
 		<tr>
 			<th>ลำดับ</th>
 			<th>ชื่อกิจกรรม</th>
-			<th>สร้างโดย</th>
 			<th>หน่วยงาน</th>
+			<th>สร้างโดย</th>
 			<th width="280px">Action</th>
 		</tr>
-
-	<tr>
-		<td>1</td>
-		<td>FRESHY NIGHT PARTY</td>
-		<td>Aekkamon.N</td>
-		<td>องค์การบริหาร องค์การนักศึกษา</td>
-		<td>
+		@foreach($objs as $row)
+		<tr>
+		<th>{{$row->act_id}}</th>
+		<th>{{$row->act_name}}</th>
+		<th>{{$row->act_dep}}</th>
+		<th>555555555</th>
+		<th>
 			<a class="btn btn-info" href="">Show</a>
 			<a class="btn btn-primary" href="">Edit</a>
 			<a class="btn btn-success" href="">Delete</a>
-		</td>
-	</tr>
+		</th>
+		</tr>
+		@endforeach
 	</table>
+	</div>
+</div>
 
 @endsection

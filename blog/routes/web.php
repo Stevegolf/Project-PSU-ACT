@@ -10,6 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//admin Rout event
+Route::resource('events','Admin\\EventController');
+
+
+
+
+
+
 
 //User Page
 Route::get('/contact','ContactController@contact');
@@ -33,13 +41,9 @@ Route::get('/managegallery','ManagegalleryController@managegallery');
 Route::get('/dashboard','DashboardController@dashboard');
 
 
-Route::resource('event','Admin\\EventController');
-Route::resource('events','Admin\\EventController');
-
 
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
-
 Auth::routes();
 Route::get('/home', 'HomeController@index');
 

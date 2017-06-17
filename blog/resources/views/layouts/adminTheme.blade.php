@@ -29,10 +29,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 return false;
             }
 
-
             $('#toggle').click(function () {
                 screenfull.toggle($('#container')[0]);
-            }); 
+            });
         });
         </script>
 <!-- charts -->
@@ -71,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
              <li>
-                <a href="/event">
+                <a href="/events">
                     <i class="fa fa-check-square-o nav_icon"></i>
                     <span class="nav-text">
                     Event

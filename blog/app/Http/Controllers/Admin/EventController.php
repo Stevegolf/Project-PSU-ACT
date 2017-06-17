@@ -15,7 +15,9 @@ class EventController extends Controller
      */
     public function index()
     {
-        return view('admin/event/event');
+        $objs = Event::all();
+        return view('admin.event.event')->with('objs',$objs);
+        // return view('admin.event.event');
     }
 
     /**
@@ -25,7 +27,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        // return view('event.create');
+        //return view('event.create');
         return view('admin.event.create');
     }
 
@@ -36,8 +38,26 @@ class EventController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
+
     {
-        //
+        //insert database
+        $obj              = new Event();
+        $obj->act_name    =$request->input('act_name');
+        $obj->act_dep     =$request->input('act_dep');
+        $obj->act_locat   =$request->input('act_locat');
+        $obj->date_begin  =$request->input('date_begin');
+        $obj->time_begin  =$request->input('time_begin');
+        $obj->date_end    =$request->input('date_end');
+        $obj->time_end    =$request->input('time_end');
+        $obj->act_sem     =$request->input('act_sem');
+        $obj->act_year    =$request->input('act_year');
+        $obj->act_type    =$request->input('act_type');
+        $obj->act_req     =$request->input('act_req');
+        $obj->act_hour    =$request->input('act_hour');
+        $obj->act_note    =$request->input('act_note');
+        $obj->save();
+        return view('admin.event.event');
+        // dd($obj->act_name );
     }
 
     /**
@@ -46,9 +66,11 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        $objs = Event::all();
+        return view('admin.event.event')->with('objs',$objs);
+
     }
 
     /**
@@ -57,9 +79,10 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($act_id)
     {
-        //
+         $obj = Event::find($act_id);
+        //load view to edit
     }
 
     /**
@@ -69,10 +92,25 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $act_id)
     {
-        //
+        $obj             = Event::find($act_id);
+        $obj->act_name    =$request[act_name];
+        $obj->act_dep     =$request[act_dep];
+        $obj->act_locat   =$request[act_locat];
+        $obj->date_begin  =$request[date_begin];
+        $obj->time_begin  =$request[time_begin];
+        $obj->date_end    =$request[date_end];
+        $obj->time_end    =$request[time_end];
+        $obj->act_sem     =$request[act_sem];
+        $obj->act_year    =$request[act_year];
+        $obj->act_type    =$request[act_type];
+        $obj->act_req     =$request[act_req];
+        $obj->act_hour    =$request[act_hour];
+        $obj->act_note    =$request[act_note];
+        $obj->user;
     }
+    
 
     /**
      * Remove the specified resource from storage.
@@ -80,8 +118,10 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($act_id)
+    //delete database
     {
-        //
+        $obj = Event::find($act_id);
+        $obj->delete();
     }
 }
