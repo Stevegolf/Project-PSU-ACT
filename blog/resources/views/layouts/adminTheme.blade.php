@@ -7,20 +7,20 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
-<link rel="stylesheet" href="/admin/css/bootstrap.css">
+<link rel="stylesheet" href="/backend/css/bootstrap.css">
 <!-- //bootstrap-css -->
 <!-- Custom CSS -->
-<link href="/admin/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/backend/css/style.css" rel='stylesheet' type='text/css' />
 <!-- font CSS -->
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <!-- font-awesome icons -->
-<link rel="stylesheet" href="/admin/css/font.css" type="text/css"/>
-<link href="/admin/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/backend/css/font.css" type="text/css"/>
+<link href="/backend/css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
-<script src="/admin/js/jquery2.0.3.min.js"></script>
-<script src="/admin/js/modernizr.js"></script>
-<script src="/admin/js/jquery.cookie.js"></script>
-<script src="/admin/js/screenfull.js"></script>
+<script src="/backend/js/jquery2.0.3.min.js"></script>
+<script src="/backend/js/modernizr.js"></script>
+<script src="/backend/js/jquery.cookie.js"></script>
+<script src="/backend/js/screenfull.js"></script>
         <script>
         $(function () {
             $('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
@@ -35,12 +35,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
         </script>
 <!-- charts -->
-<script src="admin/js/raphael-min.js"></script>
-<script src="admin/js/morris.js"></script>
-<link rel="stylesheet" href="admin/css/morris.css">
+<script src="backend/js/raphael-min.js"></script>
+<script src="backend/js/morris.js"></script>
+<link rel="stylesheet" href="backend/css/morris.css">
 <!-- //charts -->
 <!--skycons-icons-->
-<script src="admin/js/skycons.js"></script>
+<script src="backend/js/skycons.js"></script>
 <!--//skycons-icons-->
 </head>
 <body class="dashboard-page">
@@ -174,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                     </li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="admin/images/1.png" alt=""></div>
+                                       <div class="user_img"><img src="backend/images/1.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet</p>
                                         <p><span>1 hour ago</span></p>
@@ -182,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                        <div class="clearfix"></div> 
                                     </a></li>
                                     <li class="odd"><a href="#">
-                                        <div class="user_img"><img src="admin/images/2.png" alt=""></div>
+                                        <div class="user_img"><img src="backend/images/2.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>
@@ -190,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <div class="clearfix"></div>  
                                     </a></li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="admin/images/3.png" alt=""></div>
+                                       <div class="user_img"><img src="backend/images/3.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>
@@ -246,7 +246,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <!-- //footer -->
     </section>
-    <script src="admin/js/bootstrap.js"></script>
+    <script src="/backend/js/bootstrap.js"></script>
 
 </body>
 </html>

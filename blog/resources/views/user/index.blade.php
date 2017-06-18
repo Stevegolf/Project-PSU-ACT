@@ -20,7 +20,7 @@
                     <p>มาแล้วกิจกรรม FRESHY NIGHT PARTY! เตียมพบกับ Big Ass</p>
                     <a href="#" class="da-link button">Read more</a>
                     <div class="da-img">
-                        <img src="images/event/Bigass.jpg" alt="image01" width="320">
+                        <img src="fontend/images/event/Bigass.jpg" alt="image01" width="320">
                     </div>
                 </div>
                 <!-- End first slide -->
@@ -31,7 +31,7 @@
                     <p>Green University will in 15 March 2017. It's about ... </p>
                     <a href="#" class="da-link button">Read more</a>
                     <div class="da-img">
-                        <img src="images/Slider02.jpg" width="320" alt="image02">
+                        <img src="fontend/images/Slider02.jpg" width="320" alt="image02">
                     </div>
                 </div>
                 <!-- End second slide -->
@@ -42,7 +42,7 @@
                     <p>Chinese want 10 student for go to chinese. You can read more form student email.</p>
                     <a href="#" class="da-link button">Read more</a>
                     <div class="da-img">
-                        <img src="images/Slider03.jpg" width="320" alt="image03">
+                        <img src="fontend/images/Slider03.jpg" width="320" alt="image03">
                     </div>
                 </div>
                 <!-- Start third slide -->
@@ -66,7 +66,7 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/News01.png" alt="team 1">
+                        <img src="fontend/images/News01.png" alt="team 1">
                         <h3>PSU Walk Rally Episode 1</h3>
                         <div class="mask">
                             <h2>PSU Walk Rally Episode 1</h2>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/News02.png" alt="team 1">
+                        <img src="fontend/images/News02.png" alt="team 1">
                         <h3>ขอเชิญร่วมประกวดภาพถ่าย</h3>
                         <div class="mask">
                             <h2>ขอเชิญร่วมประกวดภาพถ่าย</h2>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/News03.png" alt="team 1">
+                        <img src="fontend/images/News03.png" alt="team 1">
                         <h3>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h3>
                         <div class="mask">
                             <h2>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h2>
@@ -111,7 +111,7 @@
                 <div id="single-project">
                     <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/Bigass.jpg" alt="project 1" />
+                            <img src="fontend/images/event/Bigass.jpg" alt="project 1" />
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -148,7 +148,7 @@
                     <!-- Start details for portfolio project 2 -->
                     <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/Club.jpg" alt="project 2">
+                            <img src="fontend/images/event/Club.jpg" alt="project 2">
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -185,7 +185,7 @@
                     <!-- Start details for portfolio project 3 -->
                     <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/NoSmoking.jpg" alt="project 3">
+                            <img src="fontend/images/event/NoSmoking.jpg" alt="project 3">
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -222,7 +222,7 @@
                     <!-- Start details for portfolio project 4 -->
                     <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/Run.jpg" alt="project 4">
+                            <img src="fontend/images/event/Run.jpg" alt="project 4">
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -259,7 +259,7 @@
                     <!-- Start details for portfolio project 5 -->
                     <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/SriBlue.jpg" alt="project 5">
+                            <img src="fontend/images/event/SriBlue.jpg" alt="project 5">
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -296,7 +296,7 @@
                     <!-- Start details for portfolio project 6 -->
                     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/event/Sribluegame.jpg" alt="project 6">
+                            <img src="fontend/images/event/Sribluegame.jpg" alt="project 6">
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -334,7 +334,7 @@
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix web">
                             <div class="thumbnail">
-                                <img src="images/event/Bigass.jpg" alt="project 1">
+                                <img src="fontend/images/event/Bigass.jpg" alt="project 1">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -345,7 +345,7 @@
                         </li>
                         <li class="span4 mix photo">
                             <div class="thumbnail">
-                                <img src="images/event/Club.jpg" alt="project 2">
+                                <img src="fontend/images/event/Club.jpg" alt="project 2">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -356,7 +356,7 @@
                         </li>
                         <li class="span4 mix identity">
                             <div class="thumbnail">
-                                <img src="images/event/NoSmoking.jpg" alt="project 3">
+                                <img src="fontend/images/event/NoSmoking.jpg" alt="project 3">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -367,7 +367,7 @@
                         </li>
                         <li class="span4 mix web">
                             <div class="thumbnail">
-                                <img src="images/event/Run.jpg" alt="project 4">
+                                <img src="fontend/images/event/Run.jpg" alt="project 4">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -378,7 +378,7 @@
                         </li>
                         <li class="span4 mix photo">
                             <div class="thumbnail">
-                                <img src="images/event/SriBlue.jpg" alt="project 5">
+                                <img src="fontend/images/event/SriBlue.jpg" alt="project 5">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -389,7 +389,7 @@
                         </li>
                         <li class="span4 mix identity">
                             <div class="thumbnail">
-                                <img src="images/event/Sribluegame.jpg" alt="project 6">
+                                <img src="fontend/images/event/Sribluegame.jpg" alt="project 6">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -414,7 +414,7 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/Sribluegame.jpg" alt="team 1">
+                        <img src="fontend/images/gallery/Sribluegame.jpg" alt="team 1">
                         <h3>สีบลูเกมครั้งที่ 17</h3>
                         <ul class="social">
                             <li>
@@ -441,7 +441,7 @@
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/krue.jpg" alt="team 1">
+                        <img src="fontend/images/gallery/krue.jpg" alt="team 1">
                         <h3>ไหว้ครู 2016</h3>
                         <ul class="social">
                             <li>
@@ -468,7 +468,7 @@
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/5wit.jpg" alt="team 1">
+                        <img src="fontend/images/gallery/5wit.jpg" alt="team 1">
                         <h3>การแข่งขันกีฬา5วิทยาเขต</h3>
                         <ul class="social">
                             <li>
@@ -513,27 +513,27 @@
                 <ul class="row client-slider" id="clint-slider">
                     <li>
                         <a href="https://te.psu.ac.th/" target="_blank">
-                            <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            <img src="fontend/images/clients/ClientLogo01.png" alt="client logo 1">
                         </a>
                     </li>
                     <li>
                         <a href="https://fis.psu.ac.th/" target="_blank">
-                            <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            <img src="fontend/images/clients/ClientLogo02.png" alt="client logo 2">
                         </a>
                     </li>
                     <li>
                         <a href="http://www.fht.psu.ac.th/fht/index.php/th/" target="_blank">
-                            <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            <img src="fontend/images/clients/ClientLogo03.png" alt="client logo 3">
                         </a>
                     </li>
                     <li>
                         <a href="http://www.coe.phuket.psu.ac.th/" target="_blank">
-                            <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            <img src="fontend/images/clients/ClientLogo04.png" alt="client logo 4">
                         </a>
                     </li>
                     <li>
                         <a href="http://www.phuket.psu.ac.th/intro/" target="_blank">
-                            <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            <img src="fontend/images/clients/ClientLogo05.png" alt="client logo 5">
                         </a>
                     </li>
 

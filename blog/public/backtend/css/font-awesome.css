@@ -246,8 +246,7 @@
 .fa-home:before {
   content: "\f015";
 }
-
-.fa-bullhorn:before {
+.fa-file-o:before {
   content: "\f016";
 }
 .fa-clock-o:before {

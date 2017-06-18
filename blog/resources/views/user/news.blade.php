@@ -18,7 +18,7 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/News01.png" alt="team 1">
+                        <img src="/fontend/images/News01.png" alt="team 1">
                         <h3>PSU Walk Rally Episode 1</h3>
                         <div class="mask">
                             <h2>PSU Walk Rally Episode 1</h2>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/News02.png" alt="team 1">
+                        <img src="/fontend/images/News02.png" alt="team 1">
                         <h3>ขอเชิญร่วมประกวดภาพถ่าย</h3>
                         <div class="mask">
                             <h2>ขอเชิญร่วมประกวดภาพถ่าย</h2>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/News03.png" alt="team 1">
+                        <img src="/fontend/images/News03.png" alt="team 1">
                         <h3>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h3>
                         <div class="mask">
                             <h2>ขอเชิญร่วมบริจาคน้ำมันพืชใช้แล้ว</h2>

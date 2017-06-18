@@ -17,7 +17,7 @@
             <div class="row-fluid team">
                 <div class="span4" id="first-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/Sribluegame.jpg" alt="team 1">
+                        <img src="/fontend/images/gallery/Sribluegame.jpg" alt="team 1">
                         <h3>สีบลูเกมครั้งที่ 17</h3>
                         <ul class="social">
                             <li>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="span4" id="second-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/krue.jpg" alt="team 1">
+                        <img src="/fontend/images/gallery/krue.jpg" alt="team 1">
                         <h3>ไหว้ครู 2016</h3>
                         <ul class="social">
                             <li>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="span4" id="third-person">
                     <div class="thumbnail">
-                        <img src="images/gallery/5wit.jpg" alt="team 1">
+                        <img src="/fontend/images/gallery/5wit.jpg" alt="team 1">
                         <h3>การแข่งขันกีฬา 5 วิทยาเขต</h3>
                         <ul class="social">
                             <li>

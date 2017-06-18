@@ -17,8 +17,6 @@ Route::resource('events','Admin\\EventController');
 
 
 
-
-
 //User Page
 Route::get('/contact','ContactController@contact');
 Route::get('/document','DocumentController@document');
