@@ -41,22 +41,22 @@ class EventController extends Controller
 
     {
         //insert database
-        $obj              = new Event();
-        $obj->act_name    =$request->input('act_name');
-        $obj->act_dep     =$request->input('act_dep');
-        $obj->act_locat   =$request->input('act_locat');
-        $obj->date_begin  =$request->input('date_begin');
-        $obj->time_begin  =$request->input('time_begin');
-        $obj->date_end    =$request->input('date_end');
-        $obj->time_end    =$request->input('time_end');
-        $obj->act_sem     =$request->input('act_sem');
-        $obj->act_year    =$request->input('act_year');
-        $obj->act_type    =$request->input('act_type');
-        $obj->act_req     =$request->input('act_req');
-        $obj->act_hour    =$request->input('act_hour');
-        $obj->act_note    =$request->input('act_note');
-        $obj->save();
-        return view('admin.event.event');
+        $objs              = new Event();
+        $objs->act_name    =$request->input('act_name');
+        $objs->act_dep     =$request->input('act_dep');
+        $objs->act_locat   =$request->input('act_locat');
+        $objs->dateTime_begin=$request->input('dateTime_begin');
+        $objs->dateTime_end=$request->input('dateTime_end');
+        $objs->act_sem     =$request->input('act_sem');
+        $objs->act_year    =$request->input('act_year');
+        $objs->act_type    =$request->input('act_type');
+        $objs->act_req     =$request->input('act_req');
+        $objs->act_hour    =$request->input('act_hour');
+        $objs->act_note    =$request->input('act_note');
+        //$objs->act_img     =$request->input('act_img');
+
+        $objs->save();
+        return redirect('/events');
         // dd($obj->act_name );
     }
 
@@ -98,16 +98,15 @@ class EventController extends Controller
         $obj->act_name    =$request[act_name];
         $obj->act_dep     =$request[act_dep];
         $obj->act_locat   =$request[act_locat];
-        $obj->date_begin  =$request[date_begin];
-        $obj->time_begin  =$request[time_begin];
-        $obj->date_end    =$request[date_end];
-        $obj->time_end    =$request[time_end];
+        $obj->dateTime_begin  =$request[dateTime_begin];
+        $obj->dateTime_end    =$request[dateTime_end];
         $obj->act_sem     =$request[act_sem];
         $obj->act_year    =$request[act_year];
         $obj->act_type    =$request[act_type];
         $obj->act_req     =$request[act_req];
         $obj->act_hour    =$request[act_hour];
         $obj->act_note    =$request[act_note];
+        $obj->act_img     =$request[act_img];
         $obj->user;
     }
     

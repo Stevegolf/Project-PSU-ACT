@@ -35,12 +35,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
         </script>
 <!-- charts -->
-<script src="backend/js/raphael-min.js"></script>
-<script src="backend/js/morris.js"></script>
-<link rel="stylesheet" href="backend/css/morris.css">
+<script src="/backend/js/raphael-min.js"></script>
+<script src="/backend/js/morris.js"></script>
+<link rel="stylesheet" href="/backend/css/morris.css">
 <!-- //charts -->
 <!--skycons-icons-->
-<script src="backend/js/skycons.js"></script>
+<script src="/backend/js/skycons.js"></script>
 <!--//skycons-icons-->
 </head>
 <body class="dashboard-page">
@@ -147,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
         <section class="title-bar">
             <div class="logo">
-                <h1><img src="{{url('images/LogoPSUActBackend.png')}}" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
+                <h1><img src="/backend/images/LogoPSUActBackend.png" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
             </div>
             <div class="full-screen">
                 <section class="full-top">
@@ -174,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                     </li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="backend/images/1.png" alt=""></div>
+                                       <div class="user_img"><img src="/backend/images/1.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet</p>
                                         <p><span>1 hour ago</span></p>
@@ -182,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                        <div class="clearfix"></div> 
                                     </a></li>
                                     <li class="odd"><a href="#">
-                                        <div class="user_img"><img src="backend/images/2.png" alt=""></div>
+                                        <div class="user_img"><img src="/backend/images/2.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>
@@ -190,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <div class="clearfix"></div>  
                                     </a></li>
                                     <li><a href="#">
-                                       <div class="user_img"><img src="backend/images/3.png" alt=""></div>
+                                       <div class="user_img"><img src="/backend/images/3.png" alt=""></div>
                                        <div class="notification_desc">
                                         <p>Lorem ipsum dolor amet </p>
                                         <p><span>1 hour ago</span></p>

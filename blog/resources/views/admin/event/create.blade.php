@@ -8,14 +8,16 @@
 @endsection
 
 @section('content')
-<div class='container'>
-    <div class='panel panel-primary dialog-panel'>
-      <div class='panel-heading'>
-        <h5>สร้างกิจกรรม</h5>
-      </div>
-      <div class='panel-body'>
+<div class="panel panel-widget forms-panel">
+  <div class="forms">
+    <div class=" form-grids form-grids-right">
+      <div class="widget-shadow " data-example-id="basic-forms"> 
+        <div class="form-title">
+          <h2>Add Event</h2>
+        </div>
+        <div class="form-body">
       <form class='form-horizontal' role='form' action="/events" method="post">
-		    <div class='form-group'>
+        <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_name'>ชื่อกิจกรรม :</label>
             <div class='col-md-6'>
               <div class='col-md-12'>
@@ -54,48 +56,31 @@
               </div>
             </div>
           </div>
-            <div class='form-group'>
-            <label class='control-label col-md-2 col-md-offset-2' for='act_begin'>เริ่ม :</label>
+          <div class='form-group'>
+            <label class='control-label col-md-2 col-md-offset-2' for='act_begin'>เริ่ม (ว/ด/ป:เวลา) :</label>
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="date" id='date_begin' name="date_begin">
+                  <input class='form-control datepicker' type="datetime-local" id='dateTime_begin' name="dateTime_begin">
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
-                  </span>
-                </div>
-              </div>
-              <label class='control-label col-md-2' for='time'>เวลา:</label>
-              <div class='col-md-3'>
-                <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' id='time_begin' type="time" name="time_begin" >
-                  <span class='input-group-addon'>
-                    <i class='glyphicon glyphicon-time'></i>
                   </span>
                 </div>
               </div>
             </div>
           </div>
-            <div class='form-group'>
-            <label class='control-label col-md-2 col-md-offset-2' for='act_date'>สิ้นสุด :</label>
+          <div class='form-group'>
+            <label class='control-label col-md-2 col-md-offset-2' for='act_date'>สิ้นสุด (ว/ด/ป:เวลา):</label>
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="date" id='date_end' name="date_end">
+                  <input class='form-control datepicker' type="datetime-local" id='dateTime_end' name="dateTime_end">
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>
                 </div>
               </div>
-              <label class='control-label col-md-2' for='time_end'>เวลา:</label>
-              <div class='col-md-3'>
-                <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' id='time_end' type="time" name="time_end">
-                  <span class='input-group-addon'>
-                    <i class='glyphicon glyphicon-time'></i>
-                  </span>
-                </div>
-              </div>
+
             </div>
           </div>
            <div class='form-group'>
@@ -129,36 +114,36 @@
               </div>
             </div>
            </div>
-	      <div class='form-group'>
-	      	<label class='control-label col-md-1 col-md-offset-2' for='act_type'>ประเภท :</label>
-			 <div class="row text-center">
-				<label for="type1" class="btn btn-danger"> บังคับ 
-					<input type="checkbox" id="type1" class="badgebox" name="act_type">
-					<span class="badge"></span>
-				</label>
-		        <label for="type2" class="btn btn-primary">จิตอาสา 
-			        <input type="checkbox" id="type2" class="badgebox" name="act_type">
-			        <span class="badge"></span>
-			    </label>
-		        <label for="type3" class="btn btn-info">วิชาการ 
-		        	<input type="checkbox" id="type3" class="badgebox" name="act_type">
-		        	<span class="badge"></span>
-		        </label>
-		        <label for="type4" class="btn btn-success">ภูมิใจในสถาบัน 
-		        	<input type="checkbox" id="type4" class="badgebox" name="act_type">
-		        	<span class="badge"></span>
-		        </label>
-		        <label for="type5" class="btn btn-warning">พหุวัฒนธรรม 
-		        	<input type="checkbox" id="type5" class="badgebox" name="act_type">
-		       		<span class="badge"></span>
-		        </label>
-		        <label for="type6" class="btn btn-danger">สุขภาพ 
-		        <input type="checkbox" id="type6" class="badgebox" name="act_type">
-		        <span class="badge"></span>
-		        </label>
-			   </div>
-		    </div>
-	    <div class='form-group'>
+        <div class='form-group'>
+          <label class='control-label col-md-1 col-md-offset-2' for='act_type'>ประเภท :</label>
+       <div class="row text-center">
+        <label for="type1" class="btn btn-danger"> บังคับ 
+          <input type="checkbox" id="type1" class="badgebox" name="act_type">
+          <span class="badge"></span>
+        </label>
+            <label for="type2" class="btn btn-primary">จิตอาสา 
+              <input type="checkbox" id="type2" class="badgebox" name="act_type">
+              <span class="badge"></span>
+          </label>
+            <label for="type3" class="btn btn-info">วิชาการ 
+              <input type="checkbox" id="type3" class="badgebox" name="act_type">
+              <span class="badge"></span>
+            </label>
+            <label for="type4" class="btn btn-success">ภูมิใจในสถาบัน 
+              <input type="checkbox" id="type4" class="badgebox" name="act_type">
+              <span class="badge"></span>
+            </label>
+            <label for="type5" class="btn btn-warning">พหุวัฒนธรรม 
+              <input type="checkbox" id="type5" class="badgebox" name="act_type">
+              <span class="badge"></span>
+            </label>
+            <label for="type6" class="btn btn-danger">สุขภาพ 
+            <input type="checkbox" id="type6" class="badgebox" name="act_type">
+            <span class="badge"></span>
+            </label>
+         </div>
+        </div>
+      <div class='form-group'>
           <label class='control-label col-md-2 col-md-offset-2' for='act_req'>จำนวนคนที่รับสมัคร :</label>
             <div class='col-md-8'>
               <div class='col-md-4'>
@@ -186,7 +171,7 @@
               <label class='control-label col-md-2'>ชั่วโมง</label>
             </div>
           </div>
-		    <div class='form-group'>
+        <div class='form-group'>
            <label class='control-label col-md-2 col-md-offset-2' for='act_note'>ข้อมูลเพิ่มเติม :</label>
             <div class='col-md-6'>
               <div class='form-group'>
@@ -201,7 +186,7 @@
             <div class='col-md-6'>
               <div class='form-group'>
                 <div class='col-md-11'>
-				          <input type="file" name="act_img" accept="image/*">
+                  <input type="file" name="act_img" accept="image/*" value="">
                 </div>
               </div>
             </div>
@@ -215,9 +200,11 @@
             </div>
           </div>
           {{csrf_field()}}
-    	   </form>
-       </div>
+         </form>
+        </div>
       </div>
     </div>
+  </div>
+</div>
 
 @endsection

@@ -12,11 +12,7 @@
 */
 //admin Rout event
 Route::resource('events','Admin\\EventController');
-
-
-
-
-
+Route::get('events','Admin\\EventController@index')->middleware('auth');
 //User Page
 Route::get('/contact','ContactController@contact');
 Route::get('/document','DocumentController@document');
@@ -28,6 +24,8 @@ Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
 Route::get('/activity','ActivityController@activity');
 Route::get('/index','IndexController@index');
+Route::get('/login','Auth\\LoginController@login');
+
 //Admin Page
 Route::get('/manageuser','ManageuserController@manageuser');
 Route::get('/messenger','MessengerController@messenger');
@@ -42,6 +40,8 @@ Route::get('/dashboard','DashboardController@dashboard');
 
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
+
+
 Auth::routes();
 Route::get('/home', 'HomeController@index');
 
@@ -50,6 +50,19 @@ Route::get('/home', 'HomeController@index');
 
 
 
+
+
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 
