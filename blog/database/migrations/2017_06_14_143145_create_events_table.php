@@ -22,11 +22,13 @@ class CreateEventsTable extends Migration
             $table->dateTime('dateTime_end');
             $table->double('act_sem');
             $table->double('act_year');
-            $table->string('act_type');
+            $table->string('types');
             $table->double('act_req');
             $table->double('act_hour');
             $table->string('act_note');
             //$table->string('act_img');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
@@ -38,6 +40,6 @@ class CreateEventsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('event');
+        Schema::dropIfExists('events');
     }
 }

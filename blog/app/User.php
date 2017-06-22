@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','level'
     ];
 
     /**
@@ -26,4 +26,13 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    public function event() {
+        return $this->hasMany(Event::class);
+    }
+    public function owns($user, $event) {
+        return $user->id == $event->user_id;
+    }
+    public function isSuperAdmin($user) {
+        return $user->level == 'admin';
+    }
 }

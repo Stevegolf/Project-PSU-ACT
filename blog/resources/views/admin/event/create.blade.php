@@ -114,35 +114,16 @@
               </div>
             </div>
            </div>
-        <div class='form-group'>
-          <label class='control-label col-md-1 col-md-offset-2' for='act_type'>ประเภท :</label>
-       <div class="row text-center">
-        <label for="type1" class="btn btn-danger"> บังคับ 
-          <input type="checkbox" id="type1" class="badgebox" name="act_type">
-          <span class="badge"></span>
-        </label>
-            <label for="type2" class="btn btn-primary">จิตอาสา 
-              <input type="checkbox" id="type2" class="badgebox" name="act_type">
-              <span class="badge"></span>
-          </label>
-            <label for="type3" class="btn btn-info">วิชาการ 
-              <input type="checkbox" id="type3" class="badgebox" name="act_type">
-              <span class="badge"></span>
-            </label>
-            <label for="type4" class="btn btn-success">ภูมิใจในสถาบัน 
-              <input type="checkbox" id="type4" class="badgebox" name="act_type">
-              <span class="badge"></span>
-            </label>
-            <label for="type5" class="btn btn-warning">พหุวัฒนธรรม 
-              <input type="checkbox" id="type5" class="badgebox" name="act_type">
-              <span class="badge"></span>
-            </label>
-            <label for="type6" class="btn btn-danger">สุขภาพ 
-            <input type="checkbox" id="type6" class="badgebox" name="act_type">
-            <span class="badge"></span>
-            </label>
-         </div>
-        </div>
+            
+          <div class="form-group">
+            <label for='types' class="control-label col-md-1 col-md-offset-2">ประเภท</label>
+              <div class="col-sm-8">
+               @foreach($types as $type)
+                <div class="checkbox-inline"><label><input  value="{{$type->id}}" type="checkbox" name="types">{{$type->nametype}}</label></div>
+                 @endforeach
+              </div>
+          </div>
+
       <div class='form-group'>
           <label class='control-label col-md-2 col-md-offset-2' for='act_req'>จำนวนคนที่รับสมัคร :</label>
             <div class='col-md-8'>
@@ -193,6 +174,7 @@
           </div>
           <div class='form-group'>
             <div class='col-md-offset-4 col-md-1'>
+              <input type="hidden" name="user_id" value="{{Auth::user()->id}}">
               <button class='btn-lg btn-primary' type='submit'>บันทึก</button>
             </div>
             <div class='col-md-3'>

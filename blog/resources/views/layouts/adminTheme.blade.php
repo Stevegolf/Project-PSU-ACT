@@ -5,6 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Colored Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+<!-- CSRF Token -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
 <link rel="stylesheet" href="/backend/css/bootstrap.css">
@@ -43,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="/backend/js/skycons.js"></script>
 <!--//skycons-icons-->
 </head>
-<body class="dashboard-page">
+<body class="dashboard-page" >
     <script>
             var theme = $.cookie('protonTheme') || 'default';
             $('body').removeClass (function (index, css) {
@@ -127,16 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </li>
         </ul>
 
-        <ul class="logout">
-            <li>
-            <a href="login.html">
-            <i class="icon-off nav-icon"></i>
-            <span class="nav-text">
-            Logout
-            </span>
-            </a>
-            </li>
-        </ul>
+
     </nav>
     <section class="wrapper scrollable">
         <nav class="user-menu">
@@ -145,14 +138,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <i class="icon-reorder"></i>
             </a>
         </nav>
+
+
         <section class="title-bar">
             <div class="logo">
                 <h1><img src="/backend/images/LogoPSUActBackend.png" href="/dashboard" width="240" height="50" alt="Logo" /></h1>
-            </div>
-            <div class="full-screen">
-                <section class="full-top">
-                    <button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>    
-                </section>
             </div>
             <div class="w3l_search">
                 <form action="#" method="post">
@@ -163,58 +153,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="header-right">
                 <div class="profile_details_left">
                     <div class="header-right-left">
-                        <!--notifications of menu start -->
-                        <ul class="nofitications-dropdown">
-                            <li class="dropdown head-dpdn">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge">3</span></a>
-                                <ul class="dropdown-menu anti-dropdown-menu w3l-msg">
-                                    <li>
-                                        <div class="notification_header">
-                                            <h3>You have 3 new messages</h3>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">
-                                       <div class="user_img"><img src="/backend/images/1.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet</p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                       <div class="clearfix"></div> 
-                                    </a></li>
-                                    <li class="odd"><a href="#">
-                                        <div class="user_img"><img src="/backend/images/2.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet </p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                      <div class="clearfix"></div>  
-                                    </a></li>
-                                    <li><a href="#">
-                                       <div class="user_img"><img src="/backend/images/3.png" alt=""></div>
-                                       <div class="notification_desc">
-                                        <p>Lorem ipsum dolor amet </p>
-                                        <p><span>1 hour ago</span></p>
-                                        </div>
-                                       <div class="clearfix"></div> 
-                                    </a></li>
-                                    <li>
-                                        <div class="notification_bottom">
-                                            <a href="#">See all messages</a>
-                                        </div> 
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown head-dpdn">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class=""></i><span class=""></span></a>
-                            </li>
-                            <div class="clearfix"> </div>
-                        </ul>
+                        <a class="btn btn-primary">{{ Auth::user()->name }}</a>
                     </div>  
                     <div class="profile_details">
                         <ul>
                             <li class="dropdown profile_details_drop">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <div class="profile_img">   
+                                    <div class="profile_img">
                                         <span class="prfil-img"><i class="fa fa-user" aria-hidden="true"></i></span> 
                                         <div class="clearfix"></div>    
                                     </div>  

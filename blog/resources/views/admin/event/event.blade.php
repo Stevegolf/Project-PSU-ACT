@@ -32,7 +32,7 @@
 							<th>{{$row->act_id}}</th>
 							<th>{{$row->act_name}}</th>
 							<th>{{$row->act_dep}}</th>
-							<th>555555555</th>
+							<th>{{$row->user_id}}</th>
 							<th>
 								<a class="btn btn-info" href="">Show</a>
 								<a class="btn btn-primary" href="">Edit</a>
