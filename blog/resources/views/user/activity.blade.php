@@ -1,5 +1,5 @@
 ุ@extends('layouts.theme')
-
+<!-- test test -->
 @section('title', 'Page Title')
 
 @section('sidebar')
