@@ -124,5 +124,6 @@ class EventController extends Controller
     {
        Event::destroy($id);
        return redirect('events');
+
     }
 }

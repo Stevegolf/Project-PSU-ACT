@@ -18,7 +18,7 @@
 				</div>
 					<h2>Event Management</h2>
 				</div>
-				<div class="form-body">
+				<div class="form-body" >
 					<table class="table table-striped table-hover">
 						<tr>
 							<th width="50px">ลำดับ</th>
@@ -34,14 +34,13 @@
 							<th>{{$row->act_dep}}</th>
 							<th>{{$row->name}}</th>
 							<th>
-						@can('show',$row)
-						<form action="/events/{{$$row->id}}" method="post" class="form-inline">
-								<a href="/events/{{$row->id}}" class="btn btn-info">Show</a>
-								<a href="/events/{{$row->id}}/edit" class="btn btn-primary">Edit</a>
-								{{csrf_field()}}
-								<button class="btn btn-primary btn-sm">Delete</button>
+						<form action="/events/{{$row->id}}" method="post" class="form-inline">
+							<a href="/events/{{$row->id}}" class="btn btn-warning">Show</a>
+							<a href="/events/{{$row->id}}/edit" class="btn btn-primary">Edit</a>
+							<input type="hidden" name="_method" value="DELETE" />
+							{{csrf_field()}}
+							<button class="btn btn-info">Delete</button>
 						</form>
-						@endcan
 							</th>
 						</tr>
 						@endforeach
