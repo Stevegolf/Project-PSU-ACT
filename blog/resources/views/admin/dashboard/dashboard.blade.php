@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="">
+                <a href="/events">
                     <div class="panel-footer">
                         <a href="/events"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
