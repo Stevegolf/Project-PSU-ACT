@@ -25,7 +25,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/managenews" span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
@@ -48,7 +48,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/events"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
@@ -71,7 +71,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/managegallery"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
@@ -94,7 +94,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/managedocument"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
@@ -117,7 +117,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/messenger"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
@@ -140,7 +140,7 @@
                 </div>
                 <a href="">
                     <div class="panel-footer">
-                        <span class="pull-left">View detail</span>
+                        <a href="/manageuser"<span class="pull-left">View detail</span></a>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                         <div class="clearfix"></div>
