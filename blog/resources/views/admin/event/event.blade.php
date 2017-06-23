@@ -29,13 +29,12 @@
 						</tr>
 						@foreach($objs as $row)
 						<tr>
-							<th>{{$row->act_id}}</th>
+							<th>{{$row->id}}</th>
 							<th>{{$row->act_name}}</th>
 							<th>{{$row->act_dep}}</th>
 							<th>{{$row->name}}</th>
-
 							<th>
-								<a class="btn btn-info" href="">Show</a>
+								<a href="/events/{{$row->id}}" class="btn btn-info" href="">Show</a>
 								<a class="btn btn-primary" href="">Edit</a>
 								<a class="btn btn-success" href="">Delete</a>
 							</th>

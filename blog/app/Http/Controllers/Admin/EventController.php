@@ -14,7 +14,7 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         // $objs = Event::all();
         // return view('admin.event.event')->with('objs',$objs);
@@ -23,9 +23,13 @@ class EventController extends Controller
         //         ->leftJoin('events', 'users.id', '=', 'events.user_id')
         //         ->get();
         $objs=Event::join('users','events.user_id','=','users.id')
-            ->get();
+                ->select('events.id',
+                    'events.act_name',
+                    'act_dep',
+                    'users.name')
+                ->get();
         return view('admin.event.event')
-            ->with('objs',$objs);
+                ->with('objs',$objs);
 
     }
 
@@ -75,10 +79,13 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
-    {
-        $objs = Event::all();
-        return view('admin.event.event')->with('objs',$objs);
+    public function show($id){
+        $nametypes=DB::table('types')->select('nametype');
+        dd($nametypes);
+        
+        $event = Event::findOrFail($id);
+        dd($nametypes);
+        return view('admin.event.show',compact('event','nametypes'));
 
     }
 
@@ -88,9 +95,9 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($act_id)
+    public function edit($id)
     {
-         $obj = Event::find($act_id);
+         $obj = Event::find($id);
         //load view to edit
     }
 
@@ -101,9 +108,9 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $act_id)
+    public function update(Request $request, $id)
     {
-        $obj                = Event::find($act_id);
+        $obj                = Event::find($id);
         $obj->act_name      =$request[act_name];
         $obj->act_dep       =$request[act_dep];
         $obj->act_locat     =$request[act_locat];
@@ -126,10 +133,10 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($act_id)
+    public function destroy($id)
     //delete database
     {
-        $obj = Event::find($act_id);
+        $obj = Event::find($id);
         $obj->delete();
     }
 }
