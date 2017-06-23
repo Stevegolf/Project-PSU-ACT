@@ -11,7 +11,7 @@
 <div class="panel panel-widget forms-panel">
   <div class="forms">
     <div class=" form-grids form-grids-right">
-      <div class="widget-shadow " data-example-id="basic-forms"> 
+      <div class="widget-shadow " data-example-id="basic-forms">
         <div class="form-title">
           <h2>Add Event</h2>
         </div>
@@ -114,7 +114,7 @@
               </div>
             </div>
            </div>
-            
+
           <div class="form-group">
             <label for='types' class="control-label col-md-1 col-md-offset-2">ประเภท</label>
               <div class="col-sm-8">
