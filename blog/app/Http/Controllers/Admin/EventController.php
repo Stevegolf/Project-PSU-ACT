@@ -16,9 +16,17 @@ class EventController extends Controller
      */
     public function index()
     {
-        $objs = Event::all();
-        return view('admin.event.event')->with('objs',$objs);
+        // $objs = Event::all();
+        // return view('admin.event.event')->with('objs',$objs);
         // return view('admin.event.event');
+        // $users=DB::table('users')
+        //         ->leftJoin('events', 'users.id', '=', 'events.user_id')
+        //         ->get();
+        $objs=Event::join('users','events.user_id','=','users.id')
+            ->get();
+        return view('admin.event.event')
+            ->with('objs',$objs);
+
     }
 
     /**
