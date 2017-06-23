@@ -80,12 +80,9 @@ class EventController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id){
-        $nametypes=DB::table('types')->select('nametype');
-        dd($nametypes);
-        
+
         $event = Event::findOrFail($id);
-        dd($nametypes);
-        return view('admin.event.show',compact('event','nametypes'));
+        return view('admin.event.show',compact('event'));
 
     }
 
@@ -97,8 +94,9 @@ class EventController extends Controller
      */
     public function edit($id)
     {
-         $obj = Event::find($id);
-        //load view to edit
+         $event = Event::findOrFail($id);
+         $types = Type::all();
+         return view('admin.event.edit',compact('event','types','id'));
     }
 
     /**
@@ -110,22 +108,10 @@ class EventController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $obj                = Event::find($id);
-        $obj->act_name      =$request[act_name];
-        $obj->act_dep       =$request[act_dep];
-        $obj->act_locat     =$request[act_locat];
-        $obj->dateTime_begin=$request[dateTime_begin];
-        $obj->dateTime_end  =$request[dateTime_end];
-        $obj->act_sem       =$request[act_sem];
-        $obj->act_year      =$request[act_year];
-        $obj->types         =$request[types];
-        $obj->act_req       =$request[act_req];
-        $obj->act_hour      =$request[act_hour];
-        $obj->act_note      =$request[act_note];
-        $obj->act_img       =$request[act_img];
-        $obj->user;
+
+
     }
-    
+
 
     /**
      * Remove the specified resource from storage.
@@ -136,7 +122,7 @@ class EventController extends Controller
     public function destroy($id)
     //delete database
     {
-        $obj = Event::find($id);
-        $obj->delete();
+       Event::destroy($id);
+       return redirect('events');
     }
 }

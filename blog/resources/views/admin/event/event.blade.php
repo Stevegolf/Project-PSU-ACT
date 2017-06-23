@@ -34,9 +34,14 @@
 							<th>{{$row->act_dep}}</th>
 							<th>{{$row->name}}</th>
 							<th>
-								<a href="/events/{{$row->id}}" class="btn btn-info" href="">Show</a>
-								<a class="btn btn-primary" href="">Edit</a>
-								<a class="btn btn-success" href="">Delete</a>
+						@can('show',$row)
+						<form action="/events/{{$$row->id}}" method="post" class="form-inline">
+								<a href="/events/{{$row->id}}" class="btn btn-info">Show</a>
+								<a href="/events/{{$row->id}}/edit" class="btn btn-primary">Edit</a>
+								{{csrf_field()}}
+								<button class="btn btn-primary btn-sm">Delete</button>
+						</form>
+						@endcan
 							</th>
 						</tr>
 						@endforeach

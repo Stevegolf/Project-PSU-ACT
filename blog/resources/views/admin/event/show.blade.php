@@ -52,7 +52,7 @@
                     </tr>
                     <tr>
                       <td>ประเภทกิจกรรม:</td>
-                      <td>{{$nametypes}}</td>
+                      <td>{{$event->types}}</td>
                     </tr>
                     <tr>
                       <td>จำนวนคนที่รับสมัคร:</td>
