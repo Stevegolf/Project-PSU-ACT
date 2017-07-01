@@ -52,7 +52,17 @@
                     </tr>
                     <tr>
                       <td>ประเภทกิจกรรม:</td>
-                      <td>{{$event->types}}</td>
+                      <td>
+
+                        @foreach($event->types as $ctype )
+                          <span class="label label-info">
+                            {{$ctype->nametype}}
+                          </span>
+                          &nbsp;
+                        @endforeach 
+
+
+                      </td>
                     </tr>
                     <tr>
                       <td>จำนวนคนที่รับสมัคร:</td>

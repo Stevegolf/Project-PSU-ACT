@@ -33,6 +33,7 @@
 							<th>{{$row->act_name}}</th>
 							<th>{{$row->act_dep}}</th>
 							<th>{{$row->name}}</th>
+
 							<th>
 						<form action="/events/{{$row->id}}" method="post" class="form-inline">
 							<a href="/events/{{$row->id}}" class="btn btn-warning">Show</a>

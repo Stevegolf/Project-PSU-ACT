@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
 {
-     protected $fillable = ['act_name','act_dep','act_locat','date_begin','time_begin','date_end','time_end','act_sem','act_year','types','act_req','act_hour','act_note','user_id'];
+     protected $fillable = ['act_name','act_dep','act_locat','dateTime_begin','dateTime_end','act_sem','act_year','type_id','act_req','act_hour','act_note','user_id'];
 
      public function user(){
      	return $this->beLongsTo(User::class);

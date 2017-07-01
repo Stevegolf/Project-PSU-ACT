@@ -119,7 +119,8 @@
             <label for='types' class="control-label col-md-1 col-md-offset-2">ประเภท</label>
               <div class="col-sm-8">
                @foreach($types as $type)
-                <div class="checkbox-inline"><label><input  value="{{$type->id}}" type="checkbox" name="types">{{$type->nametype}}</label></div>
+                <div class="checkbox-inline"><label>
+                <input value="{{$type->id}}" type="checkbox" name="types[]">{{$type->nametype}}</label></div>
                  @endforeach
               </div>
           </div>

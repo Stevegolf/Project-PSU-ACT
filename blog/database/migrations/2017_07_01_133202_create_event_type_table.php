@@ -1,11 +1,10 @@
-
 <?php
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEventTable extends Migration
+class CreateEventTypeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -21,6 +20,7 @@ class CreateEventTable extends Migration
             $table->integer('type_id')->unsigned()->index();
             $table->foreign('type_id')->references('id')->on('types')
                   ->onDelete('cascade')->onUpdate('cascade');
+                  $table->timestamps();
         });
     }
 

@@ -27,14 +27,14 @@ Route::get('/index','IndexController@index');
 Route::get('/login','Auth\\LoginController@login');
 
 //Admin Page
-Route::get('/manageuser','ManageuserController@manageuser');
-Route::get('/messenger','MessengerController@messenger');
-Route::get('/report','ReportController@report');
-Route::get('/managedocument','ManagedocumentController@managedocument');
-Route::get('/managecalendar','ManagecalendarController@managecalendar');
-Route::get('/managenews','ManagenewsController@managenews');
-Route::get('/managegallery','ManagegalleryController@managegallery');
-Route::get('/dashboard','DashboardController@dashboard');
+Route::get('/manageuser','ManageuserController@manageuser')->middleware('auth');
+Route::get('/messenger','MessengerController@messenger')->middleware('auth');
+Route::get('/report','ReportController@report')->middleware('auth');
+Route::get('/managedocument','ManagedocumentController@managedocument')->middleware('auth');
+Route::get('/managecalendar','ManagecalendarController@managecalendar')->middleware('auth');
+Route::get('/managenews','ManagenewsController@managenews')->middleware('auth');
+Route::get('/managegallery','ManagegalleryController@managegallery')->middleware('auth');
+Route::get('/dashboard','DashboardController@dashboard')->middleware('auth');
 
 
 
