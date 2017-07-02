@@ -44,6 +44,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--skycons-icons-->
 <script src="/backend/js/skycons.js"></script>
 <!--//skycons-icons-->
+<!-- datetime -->
+<link rel="stylesheet" href="/backend/css/bootstrap-material-datetimepicker.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/material.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/FezVrasta/bootstrap-material-design/master/dist/js/material.min.js"></script>
+    <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="/backend/js/bootstrap-material-datetimepicker.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-60343429-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
 </head>
 <body class="dashboard-page" >
     <script>
@@ -192,6 +219,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- //footer -->
     </section>
     <script src="/backend/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function()    {
+
+      $('#date-end').bootstrapMaterialDatePicker
+      ({
+        weekStart: 0, format: 'YYYY/MM/DD HH:mm'
+      });
+      $('#date-start').bootstrapMaterialDatePicker
+      ({
+        weekStart: 0, format: 'YYYY/MM/DD HH:mm', shortTime : true
+      }).on('change', function(e, date)
+      {
+        $('#date-end').bootstrapMaterialDatePicker('setMinDate', date);
+      });
+
+      $('#min-date').bootstrapMaterialDatePicker({ format : 'YYYY/MM/DD HH:mm', minDate : new Date() });
+
+      $.material.init()
+    });
+    </script>
+
 
 </body>
 </html>

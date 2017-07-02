@@ -110,7 +110,7 @@ class EventController extends Controller
     {
          $event = Event::findOrFail($id);
          $types = Type::all();
-         return view('admin.event.edit',compact('event','types','id'));
+         return view('admin.event.edit',compact('event','id','types'));
     }
 
     /**
@@ -124,10 +124,19 @@ class EventController extends Controller
     {
 
         $event = Event::findOrFail($id);
-        $types = $request->input('types');    
+        $types = $request->input('types');
         $event->types()->sync($types);
-        $event->update($request->all());    
-        return redirect('events');   
+        if ($types == null) {
+            $pt = Type::all();
+            foreach( $pt as $t )
+                $event->types()->detach($t->id);
+        }
+        else{
+            $event->types()->sync($types);
+        }
+
+        $event->update($request->all());
+        return redirect('events');
 
     }
 

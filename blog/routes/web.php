@@ -23,7 +23,7 @@ Route::get('/gallery','GalleryController@gallery');
 Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
 Route::get('/activity','ActivityController@activity');
-Route::get('/index','IndexController@index');
+Route::get('/','IndexController@index');
 Route::get('/login','Auth\\LoginController@login');
 
 //Admin Page

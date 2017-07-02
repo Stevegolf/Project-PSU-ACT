@@ -125,7 +125,7 @@
                         @endif
                    @endforeach
                 <div class="checkbox-inline"><label>
-                <input value="{{$type->id}}" type="checkbox" name="types[]">{{$type->nametype}}</label></div>
+                <input  type="checkbox" name="types[]" value="{{$type->id}}"{{$chk}}>{{$type->nametype}}</label></div>
                  @endforeach
               </div>
           </div>

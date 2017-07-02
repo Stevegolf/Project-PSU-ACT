@@ -22,7 +22,6 @@ class CreateEventsTable extends Migration
             $table->dateTime('dateTime_end');
             $table->double('act_sem');
             $table->double('act_year');
-            //$table->string('type_id');
             $table->double('act_req');
             $table->double('act_hour');
             $table->string('act_note');

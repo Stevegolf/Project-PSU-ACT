@@ -57,11 +57,11 @@
             </div>
           </div>
           <div class='form-group'>
-            <label class='control-label col-md-2 col-md-offset-2' for='act_begin'>เริ่ม (ว/ด/ป:เวลา) :</label>
+            <label class='control-label col-md-2 col-md-offset-2' for='act_begin' >เริ่ม (ว/ด/ป:เวลา) :</label>
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="datetime-local" id='dateTime_begin' name="dateTime_begin">
+                 <input type="datetime" id="date-start" class="form-control " placeholder="Begin Date Time" name="dateTime_begin">
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>
@@ -74,13 +74,12 @@
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="datetime-local" id='dateTime_end' name="dateTime_end">
+                  <input class='form-control datepicker' type="datetime" id='date-end' name="dateTime_end" placeholder="End Date Time">
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>
                 </div>
               </div>
-
             </div>
           </div>
            <div class='form-group'>
@@ -173,6 +172,7 @@
               </div>
             </div>
           </div>
+    
           <div class='form-group'>
             <div class='col-md-offset-4 col-md-1'>
               <input type="hidden" name="user_id" value="{{Auth::user()->id}}">
