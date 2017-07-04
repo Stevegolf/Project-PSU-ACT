@@ -46,13 +46,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//skycons-icons-->
 <!-- datetime -->
 <link rel="stylesheet" href="/backend/css/bootstrap-material-datetimepicker.css" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/ripples.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/js/material.min.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/FezVrasta/bootstrap-material-design/master/dist/js/material.min.js"></script>
-    <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <link href="/backend/css/fonts-googleapis.css" rel='stylesheet' type='text/css'>
+    <link href="/backend/css/fonts-googleapis2.css" rel="stylesheet">
+    <script type="text/javascript" src="/backend/js/bootstrap2.min.js"></script>
+    <script src="/backend/js/ripples.min.js"></script>
+    <script src="/backend/js/material.min.js"></script>
+    <script type="text/javascript" src="/backend/js/material2.min.js"></script>
+    <script type="text/javascript" src="/backend/js/moment-with-locales.min.js"></script>
     <script type="text/javascript" src="/backend/js/bootstrap-material-datetimepicker.js"></script>
     <script>
       (function(i, s, o, g, r, a, m) {

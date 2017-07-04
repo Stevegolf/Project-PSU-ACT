@@ -30,12 +30,17 @@
               </div>
             </div>
           </div>
+
           <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_dep'>หน่วยงาน :</label>
             <div class='col-md-6'>
               <div class='col-md-12'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="text" id='act_dep' name="act_dep" placeholder='Ex. องค์การนักศึกษา'>
+                   <select class='form-control' id='department_id' name="department_id">
+                    @foreach($departs as $depart)
+                    <option value="{{$depart->id}}">{{$depart->dep_name}}</option>
+                     @endforeach
+                  </select>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-briefcase'></i>
                   </span>
@@ -43,6 +48,7 @@
               </div>
             </div>
           </div>
+
           <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_locat'>สถานที่ :</label>
             <div class='col-md-6'>

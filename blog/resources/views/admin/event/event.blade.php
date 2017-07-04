@@ -31,7 +31,7 @@
 						<tr>
 							<th>{{$row->id}}</th>
 							<th>{{$row->act_name}}</th>
-							<th>{{$row->act_dep}}</th>
+							<th>{{$row->dep_name}}</th>
 							<th>{{$row->name}}</th>
 
 							<th>

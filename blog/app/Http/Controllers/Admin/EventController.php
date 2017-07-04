@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Event;
 use App\Type;
+use App\Department;
 use Illuminate\Support\Facades\DB;
 
 
@@ -20,14 +21,11 @@ class EventController extends Controller
         // $objs = Event::all();
         // return view('admin.event.event')->with('objs',$objs);
         // return view('admin.event.event');
-        // $users=DB::table('users')
-        //         ->leftJoin('events', 'users.id', '=', 'events.user_id')
-        //         ->get();
-        $objs=Event::join('users','events.user_id','=','users.id')
-                ->select('events.id',
-                    'events.act_name',
-                    'act_dep',
-                    'users.name')
+
+        $objs=DB::table('events')
+                ->join('users','events.user_id','=','users.id')
+                ->join('departments','events.department_id','=','departments.id')
+                ->select('events.id','events.act_name','departments.dep_name','users.name')
                 ->get();
         return view('admin.event.event')
                 ->with('objs',$objs);
@@ -42,7 +40,8 @@ class EventController extends Controller
     public function create()
     {
         $types = Type::all();
-        return view('admin.event.create')->with('types',$types);
+        $departs = Department::all();
+        return view('admin.event.create',compact('types','departs'));
     }
 
     /**
@@ -88,16 +87,16 @@ class EventController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id){
+        $events=Event::with('department')->with('types')->find($id);
+        // dd($events->department->dep_name);
+        // $events = DB::table('events')
+        //      ->join('departments','events.id','=','departments.id')
+        //      ->join('event_type','events.id','=','event_type.event_id')
+        //      ->join('types','event_type.type_id','=','types.id')
+        //      ->where('events.id',$id)->first();
+        //      dd($events);
 
-        // $event = DB::table('events')
-        //     ->Join('types', 'types.id', '=', 'events.type_id')
-        //     ->select('act_name','act_dep','act_locat','dateTime_begin','dateTime_end','act_sem',
-        //        'act_year','nametype','act_req','act_hour','act_note')
-        //     ->get();
-        //     dd($event);
-        $event = Event::findOrFail($id);
-        return view('admin.event.show')->with('event',$event);
-
+        return view('admin.event.show',compact('events'));
     }
 
     /**
