@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2017 at 10:15 AM
+-- Generation Time: Jul 04, 2017 at 01:01 PM
 -- Server version: 10.1.22-MariaDB
 -- PHP Version: 7.1.4
 
@@ -42,7 +42,9 @@ CREATE TABLE `departments` (
 INSERT INTO `departments` (`id`, `dep_name`, `created_at`, `updated_at`) VALUES
 (1, 'ชมรมอาสา', NULL, NULL),
 (3, 'ชมรมถ่ายภาพ', NULL, NULL),
-(4, 'ชมรมแบตมินตัน', NULL, NULL);
+(4, 'ชมรมแบตมินตัน', NULL, NULL),
+(5, 'องค์การบริหาร องค์การนักศึกษา', NULL, NULL),
+(6, 'องค์การบริหาร สภานักศึกษา', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -72,9 +74,10 @@ CREATE TABLE `events` (
 --
 
 INSERT INTO `events` (`id`, `act_name`, `act_locat`, `dateTime_begin`, `dateTime_end`, `act_sem`, `act_year`, `act_req`, `act_hour`, `act_note`, `user_id`, `created_at`, `updated_at`, `department_id`) VALUES
-(4, 'Volunteer Backpack Gen1', 'โรงเรียนบ้านหนองใหญ่', '2017-07-04 14:15:00', '2017-07-04 14:15:00', 1, 2560, 200, 20, 'vvvvvvvvvvvvvvvvvvvvv', 1, '2017-07-04 00:15:34', '2017-07-04 00:15:34', 1),
-(5, 'ถ่ายภาพสร้างสรรค์', 'มอ', '2017-07-04 14:15:00', '2017-07-04 14:15:00', 2, 2561, 200, 2, 'พพพพพพพพพพพพพพ', 1, '2017-07-04 00:16:12', '2017-07-04 00:16:12', 3),
-(6, 'แบตดี', 'test3', '2017-07-04 14:16:00', '2017-07-04 14:16:00', 3, 2562, 200, 20, 'พะัะพำำพะพำำพะ', 1, '2017-07-04 00:16:43', '2017-07-04 00:16:43', 4);
+(8, 'Volunteer Backpack Gen1', 'โรงเรียนบ้านหนองใหญ่', '2017-07-04 17:44:00', '2017-07-04 17:45:00', 1, 2560, 200, 20, 'NO', 1, '2017-07-04 03:45:19', '2017-07-04 03:45:19', 1),
+(9, 'PSU Phuket Sport Day', 'มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต', '2017-07-04 08:00:00', '2017-07-18 17:00:00', 2, 2560, 9000, 20, 'PSU Sport Day', 1, '2017-07-04 03:57:25', '2017-07-04 03:57:25', 5),
+(10, 'แบตมินตัน 5วิท', 'มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่', '2017-07-08 17:00:00', '2017-07-31 18:00:00', 1, 2561, 500, 30, 'NO Note', 1, '2017-07-04 03:59:28', '2017-07-04 03:59:28', 4),
+(11, 'เลือกตั้ง62', 'ห้องสภา', '2017-07-04 12:30:00', '2017-07-04 18:00:00', 2, 2562, 99999999, 3, 'no', 1, '2017-07-04 04:00:46', '2017-07-04 04:00:46', 6);
 
 -- --------------------------------------------------------
 
@@ -94,10 +97,15 @@ CREATE TABLE `event_type` (
 --
 
 INSERT INTO `event_type` (`event_id`, `type_id`, `created_at`, `updated_at`) VALUES
-(4, 1, NULL, NULL),
-(4, 2, NULL, NULL),
-(5, 1, NULL, NULL),
-(6, 2, NULL, NULL);
+(8, 2, NULL, NULL),
+(9, 1, NULL, NULL),
+(9, 5, NULL, NULL),
+(10, 1, NULL, NULL),
+(10, 2, NULL, NULL),
+(10, 5, NULL, NULL),
+(10, 6, NULL, NULL),
+(11, 1, NULL, NULL),
+(11, 5, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -154,7 +162,9 @@ CREATE TABLE `types` (
 
 INSERT INTO `types` (`id`, `nametype`, `created_at`, `updated_at`) VALUES
 (1, 'บังคับ', NULL, NULL),
-(2, 'อาสา', NULL, NULL);
+(2, 'อาสา', NULL, NULL),
+(5, 'ถูมิใจในสถาบัน', NULL, NULL),
+(6, 'พหุวัฒนธรรม', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -237,12 +247,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `departments`
 --
 ALTER TABLE `departments`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `migrations`
 --
@@ -252,7 +262,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `types`
 --
 ALTER TABLE `types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `users`
 --

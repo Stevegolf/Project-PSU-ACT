@@ -22,13 +22,17 @@ class EventController extends Controller
         // return view('admin.event.event')->with('objs',$objs);
         // return view('admin.event.event');
 
-        $objs=DB::table('events')
-                ->join('users','events.user_id','=','users.id')
-                ->join('departments','events.department_id','=','departments.id')
-                ->select('events.id','events.act_name','departments.dep_name','users.name')
-                ->get();
-        return view('admin.event.event')
-                ->with('objs',$objs);
+        $NUM_PAGE = 12;
+        $events = Event::orderBy('updated_at','DESC')->paginate($NUM_PAGE);
+        $page = $request->input('page');
+        $page = ($page != null)?$page:1;
+        // $objs=DB::table('events')
+        //         ->join('users','events.user_id','=','users.id')
+        //         ->join('departments','events.department_id','=','departments.id')
+        //         ->select('events.id','events.act_name','departments.dep_name','users.name')
+        //         ->get();
+        return view('admin.event.event',compact('objs','page','events','NUM_PAGE'));
+
 
     }
 

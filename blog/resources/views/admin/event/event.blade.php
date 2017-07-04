@@ -14,7 +14,9 @@
 			<div class="widget-shadow " data-example-id="basic-forms">
 				<div class="form-title">
 				<div class="pull-right">
+				@if ( !Auth::guest() )
 					<a class="btn btn-success"  href="/events/create"> Create Event</a>
+				@endif
 				</div>
 					<h2>Event Management</h2>
 				</div>
@@ -27,21 +29,21 @@
 							<th>สร้างโดย</th>
 							<th width="280px">Action</th>
 						</tr>
-						@foreach($objs as $row)
+						@foreach($events as $index => $items)
 						<tr>
-							<th>{{$row->id}}</th>
-							<th>{{$row->act_name}}</th>
-							<th>{{$row->dep_name}}</th>
-							<th>{{$row->name}}</th>
-
+							<th>{{$NUM_PAGE*($page-1) + $index+1}}</th>
+							<th>{{$items->act_name}}</th>
+							<th>{{$items->department()->get()[0]['dep_name']}}</th>
+							<th>{{$items->user()->get()[0]['name']}}</th>
 							<th>
-						<form action="/events/{{$row->id}}" method="post" class="form-inline">
-							<a href="/events/{{$row->id}}" class="btn btn-warning">Show</a>
-							<a href="/events/{{$row->id}}/edit" class="btn btn-primary">Edit</a>
-							<input type="hidden" name="_method" value="DELETE" />
-							{{csrf_field()}}
-							<button class="btn btn-info">Delete</button>
-						</form>
+
+								<form action="/events/{{$items->id}}" method="post" class="form-inline">
+									<a href="/events/{{$items->id}}" class="btn btn-warning">Show</a>
+									<a href="/events/{{$items->id}}/edit" class="btn btn-primary">Edit</a>
+									<input type="hidden" name="_method" value="DELETE" />
+									{{csrf_field()}}
+									<button class="btn btn-info">Delete</button>
+								</form>
 							</th>
 						</tr>
 						@endforeach

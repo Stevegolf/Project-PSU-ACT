@@ -29,9 +29,7 @@
                     <tr>
                       <td>หน่วยงาน:</td>
                       <td>
-                        
                         {{$events->department->dep_name}}
-                        
                       </td>
                     </tr>
                     <tr>
