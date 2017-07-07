@@ -14,8 +14,8 @@
 			<div class="widget-shadow " data-example-id="basic-forms">
 				<div class="form-title">
 				<div class="pull-right">
-				@if ( !Auth::guest() )
-					<a class="btn btn-success"  href="/events/create"> Create Event</a>
+				@if ( !Auth::guest())
+					<a class="btn btn-success hvr-icon-float-away col-1"  href="/events/create"> Create Event</a>
 				@endif
 				</div>
 					<h2>Event Management</h2>
@@ -36,7 +36,6 @@
 							<th>{{$items->department()->get()[0]['dep_name']}}</th>
 							<th>{{$items->user()->get()[0]['name']}}</th>
 							<th>
-
 								<form action="/events/{{$items->id}}" method="post" class="form-inline">
 									<a href="/events/{{$items->id}}" class="btn btn-warning">Show</a>
 									<a href="/events/{{$items->id}}/edit" class="btn btn-primary">Edit</a>
@@ -48,6 +47,7 @@
 						</tr>
 						@endforeach
 					</table>
+					{{ $events->links() }}
 				</div>
 			</div>
 		</div>

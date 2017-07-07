@@ -8,7 +8,6 @@ use App\Type;
 use App\Department;
 use Illuminate\Support\Facades\DB;
 
-
 class EventController extends Controller
 {
     /**
@@ -43,6 +42,7 @@ class EventController extends Controller
      */
     public function create()
     {
+        
         $types = Type::all();
         $departs = Department::all();
         return view('admin.event.create',compact('types','departs'));
@@ -78,11 +78,20 @@ class EventController extends Controller
     // }
     {
         Event::create($request->all());
+        $event = Event::all()->last();//get the lastest record
         $types = $request->input('types');
-        $event = Event::all()->last();     //get the lastest record
         $event->types()->attach($types);
+
+        $event->act_img = '-';
+        $act_img = $request->file('act_img');
+        $act_img->move(public_path('images/events/type'),'events-'.$event->id.'.png');
+        $event->act_img = 'events-'.$event->id.'.png';
+        $event->save();
         return redirect('events');
-         }
+
+    }
+
+
 
     /**
      * Display the specified resource.
@@ -92,6 +101,10 @@ class EventController extends Controller
      */
     public function show($id){
         $events=Event::with('department')->with('types')->find($id);
+       
+
+        return view('admin.event.show',compact('events'));
+    }
         // dd($events->department->dep_name);
         // $events = DB::table('events')
         //      ->join('departments','events.id','=','departments.id')
@@ -100,8 +113,7 @@ class EventController extends Controller
         //      ->where('events.id',$id)->first();
         //      dd($events);
 
-        return view('admin.event.show',compact('events'));
-    }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -155,6 +167,11 @@ class EventController extends Controller
     {
        Event::destroy($id);
        return redirect('events');
+
+        // $image =\DB::table('files')->where('id', $id)->first();
+        // $file= $image->('images/events/type');
+        // $filename = public_path().'/uploads_folder/'.$file;
+        // \File::delete($filename);
 
     }
 }

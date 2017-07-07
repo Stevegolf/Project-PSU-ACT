@@ -23,7 +23,7 @@ class CreateEventsTable extends Migration
             $table->double('act_req');
             $table->double('act_hour');
             $table->string('act_note');
-            //$table->string('act_img');
+            $table->string('act_img');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
