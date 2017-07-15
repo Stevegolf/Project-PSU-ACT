@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2017 at 01:01 PM
+-- Generation Time: Jul 07, 2017 at 03:29 PM
 -- Server version: 10.1.22-MariaDB
 -- PHP Version: 7.1.4
 
@@ -40,11 +40,32 @@ CREATE TABLE `departments` (
 --
 
 INSERT INTO `departments` (`id`, `dep_name`, `created_at`, `updated_at`) VALUES
-(1, 'ชมรมอาสา', NULL, NULL),
-(3, 'ชมรมถ่ายภาพ', NULL, NULL),
-(4, 'ชมรมแบตมินตัน', NULL, NULL),
-(5, 'องค์การบริหาร องค์การนักศึกษา', NULL, NULL),
-(6, 'องค์การบริหาร สภานักศึกษา', NULL, NULL);
+(1, 'องค์การบริหาร องค์การนักศึกษา', NULL, NULL),
+(2, 'องค์การบริหาร สภานักศึกษา', NULL, NULL),
+(3, 'สโมสรนักศึกษา คณะเทคโนโลยีและสิ่งแวดล้อม', NULL, NULL),
+(4, 'สโมสรนักศึกษา คณะการบริการและการท่องเที่ยว', NULL, NULL),
+(5, 'สโมสรนักศึกษา คณะวิเทศศึกษา', NULL, NULL),
+(6, 'ภาควิชา วิศวกรรมศาสตร์', NULL, NULL),
+(7, 'ชมรมแบดมินตัน', NULL, NULL),
+(8, 'ชมรมบาสเกตบอล', NULL, NULL),
+(9, 'ชมรมเปตอง', NULL, NULL),
+(10, 'ชมรมวอลเลย์บอล', NULL, NULL),
+(11, 'ชมรมศิลปะป้องกันตัว', NULL, NULL),
+(12, 'ชมรมฟุตบอล', NULL, NULL),
+(13, 'ชมรมฟุตซอล', NULL, NULL),
+(14, 'ชมรมยิงปืน', NULL, NULL),
+(15, 'ชมรมฟันดาบสากล', NULL, NULL),
+(16, 'ชมรมเชียร์แอนด์แดนซ์', NULL, NULL),
+(17, 'ชมรมดนตรีสากล', NULL, NULL),
+(18, 'ชมรมอาสาพัฒนาชนบท', NULL, NULL),
+(19, 'ชมรมดนตรีไทยดนตรีไทยและ ศิลปะการแสดง', NULL, NULL),
+(20, 'ชมรมเพื่อนสิ่งแวดล้อม', NULL, NULL),
+(21, 'ชมรมVolunteer Backpack', NULL, NULL),
+(22, 'ชมรมPSU Phuket Student Fund', NULL, NULL),
+(23, 'ชมรมPSU Phuket International Student', NULL, NULL),
+(24, 'ชมรมคนสร้างภาพ PSU Pix', NULL, NULL),
+(25, 'ชมรมไมค์ทองคำ', NULL, NULL),
+(26, 'ชมรมมุสลิม', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -63,21 +84,12 @@ CREATE TABLE `events` (
   `act_req` double NOT NULL,
   `act_hour` double NOT NULL,
   `act_note` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `act_img` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `user_id` int(10) UNSIGNED NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `department_id` int(10) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `events`
---
-
-INSERT INTO `events` (`id`, `act_name`, `act_locat`, `dateTime_begin`, `dateTime_end`, `act_sem`, `act_year`, `act_req`, `act_hour`, `act_note`, `user_id`, `created_at`, `updated_at`, `department_id`) VALUES
-(8, 'Volunteer Backpack Gen1', 'โรงเรียนบ้านหนองใหญ่', '2017-07-04 17:44:00', '2017-07-04 17:45:00', 1, 2560, 200, 20, 'NO', 1, '2017-07-04 03:45:19', '2017-07-04 03:45:19', 1),
-(9, 'PSU Phuket Sport Day', 'มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต', '2017-07-04 08:00:00', '2017-07-18 17:00:00', 2, 2560, 9000, 20, 'PSU Sport Day', 1, '2017-07-04 03:57:25', '2017-07-04 03:57:25', 5),
-(10, 'แบตมินตัน 5วิท', 'มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่', '2017-07-08 17:00:00', '2017-07-31 18:00:00', 1, 2561, 500, 30, 'NO Note', 1, '2017-07-04 03:59:28', '2017-07-04 03:59:28', 4),
-(11, 'เลือกตั้ง62', 'ห้องสภา', '2017-07-04 12:30:00', '2017-07-04 18:00:00', 2, 2562, 99999999, 3, 'no', 1, '2017-07-04 04:00:46', '2017-07-04 04:00:46', 6);
 
 -- --------------------------------------------------------
 
@@ -91,21 +103,6 @@ CREATE TABLE `event_type` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `event_type`
---
-
-INSERT INTO `event_type` (`event_id`, `type_id`, `created_at`, `updated_at`) VALUES
-(8, 2, NULL, NULL),
-(9, 1, NULL, NULL),
-(9, 5, NULL, NULL),
-(10, 1, NULL, NULL),
-(10, 2, NULL, NULL),
-(10, 5, NULL, NULL),
-(10, 6, NULL, NULL),
-(11, 1, NULL, NULL),
-(11, 5, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -161,10 +158,12 @@ CREATE TABLE `types` (
 --
 
 INSERT INTO `types` (`id`, `nametype`, `created_at`, `updated_at`) VALUES
-(1, 'บังคับ', NULL, NULL),
-(2, 'อาสา', NULL, NULL),
-(5, 'ถูมิใจในสถาบัน', NULL, NULL),
-(6, 'พหุวัฒนธรรม', NULL, NULL);
+(1, 'บังคับเลือก', NULL, NULL),
+(2, 'จิตสำนึก', NULL, NULL),
+(3, 'ทักษะสังคม', NULL, NULL),
+(4, 'ภูมิใจในสถาบัน', NULL, NULL),
+(5, 'พหุวัฒนธรรม', NULL, NULL),
+(6, 'พัฒนาสุขภาพ', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -188,7 +187,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `level`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Piyaphan Chomsuwan', 'piyaphan6929@gmail.com', '$2y$10$XtDhyvVMNlsQgjFkNf4/vOnuSb2eFdr/jMhDYviBcaYZFXVkif9EW', 'user', NULL, '2017-07-03 22:14:24', '2017-07-03 22:14:24');
+(1, 'Admin', 'piyaphan6929@gmail.com', '$2y$10$GT9K4oKiAbpp8nhKaePPO.BCxUxBmi1cEJDKAFjmQUF60RZQD0eLW', 'user', NULL, '2017-07-07 06:05:59', '2017-07-07 06:05:59');
 
 --
 -- Indexes for dumped tables
@@ -247,12 +246,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `departments`
 --
 ALTER TABLE `departments`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 --
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `migrations`
 --

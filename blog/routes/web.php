@@ -13,6 +13,12 @@
 //admin Rout event
 Route::resource('events','Admin\\EventController');
 Route::get('events','Admin\\EventController@index')->middleware('auth');
+Route::get('activity','Admin\\EventController@activity');
+
+
+Route::resource('/manageuser','Admin\\ManageuserController');
+Route::get('/manageuser','Admin\\ManageuserController@index')->middleware('auth');
+Route::get('/login','Auth\\LoginController@login');
 //User Page
 Route::get('/contact','ContactController@contact');
 Route::get('/document','DocumentController@document');
@@ -22,12 +28,14 @@ Route::get('/studentunion','StudentunionController@studentunion');
 Route::get('/gallery','GalleryController@gallery');
 Route::get('/news','NewsController@news');
 Route::get('/calendar','CalendarController@calendar');
-Route::get('/activity','ActivityController@activity');
+
+
+
 Route::get('/','IndexController@index');
-Route::get('/login','Auth\\LoginController@login');
+
 
 //Admin Page
-Route::get('/manageuser','ManageuserController@manageuser')->middleware('auth');
+
 Route::get('/messenger','MessengerController@messenger')->middleware('auth');
 Route::get('/report','ReportController@report')->middleware('auth');
 Route::get('/managedocument','ManagedocumentController@managedocument')->middleware('auth');
@@ -36,33 +44,17 @@ Route::get('/managenews','ManagenewsController@managenews')->middleware('auth');
 Route::get('/managegallery','ManagegalleryController@managegallery')->middleware('auth');
 Route::get('/dashboard','DashboardController@dashboard')->middleware('auth');
 
-
-
 Route::post('/loginpsu','LoginController@login');
 Route::get('/loginpsu','LoginController@viewlogin');
 
 
-Auth::routes();
-Route::get('/home', 'HomeController@index');
-
-
-
-
-
-
-
-
-
-
 
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
 
 
 

@@ -22,6 +22,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/fontend/images/apple-touch-icon-72.png">
     <link rel="apple-touch-icon-precomposed" href="/fontend/images/ico/apple-touch-icon-57.png">
     <link rel="shortcut icon" href="/fontend/images/ico/favicon.ico">
+    <link rel="stylesheet" href="/fontend/css/w3.css">
+    <link rel="stylesheet" href="/fontend/css/icon.css">
     <style>
         .white-text{
             color: #fff !important; 
@@ -31,13 +33,12 @@
         }
     </style>
 </head>
-
 <body>
 <div class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <a href="/index" class="brand">
-                     <img src="fontend/images/LogoPSUAct.png" href="/index" width="120" height="40" alt="Logo" />
+                <a href="/" class="brand">
+                     <img src="fontend/images/LogoPSUAct.png" href="/" width="120" height="40" alt="Logo" />
                     <!-- This is website logo -->
                 </a>
                 <!-- Navigation button, visible on small resolution -->
@@ -47,7 +48,7 @@
                 <!-- Main navigation -->
                 <div class="nav-collapse collapse pull-right">
                         <ul class="nav navbar-nav linkEffects linkHoverEffect_12">
-                        <li><a href="/index">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown"><span data-hover=""><span>Activity</span></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu agileinfo">

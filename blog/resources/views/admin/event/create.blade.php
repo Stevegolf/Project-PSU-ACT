@@ -13,7 +13,7 @@
     <div class=" form-grids form-grids-right">
       <div class="widget-shadow " data-example-id="basic-forms">
         <div class="form-title">
-          <h2>Add Event</h2>
+          <h2>Create Event</h2>
         </div>
         <div class="form-body">
       <form class='form-horizontal' role='form' action="/events" method="post" enctype="multipart/form-data">
@@ -22,7 +22,7 @@
             <div class='col-md-6'>
               <div class='col-md-12'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="text" name="act_name" id='act_name' placeholder='ชื่อกิจกรรม'>
+                  <input class='form-control datepicker' type="text" name="act_name" id='act_name' placeholder='ชื่อกิจกรรม' required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-pencil'></i>
                   </span>
@@ -30,15 +30,14 @@
               </div>
             </div>
           </div>
-
           <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_dep'>หน่วยงาน :</label>
             <div class='col-md-6'>
               <div class='col-md-12'>
                 <div class='form-group internal input-group'>
-                   <select class='form-control' id='department_id' name="department_id">
+                   <select class='form-control' id='department_id' name="department_id" >
                     @foreach($departs as $depart)
-                    <option value="{{$depart->id}}">{{$depart->dep_name}}</option>
+                    <option value="{{$depart->id}}" required>{{$depart->dep_name}}</option>
                      @endforeach
                   </select>
                   <span class='input-group-addon'>
@@ -54,7 +53,7 @@
             <div class='col-md-6'>
               <div class='col-md-12'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="text" id='act_locat' name="act_locat" placeholder='Ex. สนามฟุตบอล'>
+                  <input class='form-control datepicker' type="text" id='act_locat' name="act_locat" placeholder='Ex. สนามฟุตบอล' required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-pushpin'></i>
                   </span>
@@ -67,7 +66,7 @@
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                 <input type="datetime" id="date-start" class="form-control " placeholder="Begin Date Time" name="dateTime_begin">
+                 <input type="datetime" id="date-start" class="form-control " placeholder="Begin Date Time" name="dateTime_begin" required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>
@@ -80,7 +79,7 @@
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="datetime" id='date-end' name="dateTime_end" placeholder="End Date Time">
+                  <input class='form-control datepicker' type="datetime" id='date-end' name="dateTime_end" placeholder="End Date Time" required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>
@@ -93,7 +92,7 @@
             <div class='col-md-8'>
               <div class='col-md-3'>
                 <div class='form-group internal'>
-                  <select class='form-control' id='act_sem' name="act_sem">
+                  <select class='form-control' id='act_sem' name="act_sem" required>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -105,7 +104,7 @@
                   <label class='control-label col-md-3' for='act_year'>ปีการศึกษา :</label>
                    <div class='col-md-3'>
                      <div class='form-group internal'>
-                        <select class='form-control dtp-select-year-before' id='act_year' name="act_year">
+                        <select class='form-control dtp-select-year-before' id='act_year' name="act_year" required>
                         @for ($i = 2559; $i <=2599 ; $i++)
                           <option value="<?=$i;?>"><?=$i;?></option>
                         @endfor
@@ -127,12 +126,12 @@
               </div>
           </div>
 
-      <div class='form-group'>
+        <div class='form-group'>
           <label class='control-label col-md-2 col-md-offset-2' for='act_req'>จำนวนคนที่รับสมัคร :</label>
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="number" id='act_req' placeholder='ใส่เฉพาะหมายเลข Ex.10 ' name="act_req">
+                  <input class='form-control datepicker' type="number" id='act_req' placeholder='ใส่เฉพาะหมายเลข Ex.10 ' name="act_req" required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-user'></i>
                   </span>
@@ -146,7 +145,7 @@
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="number" id='act_hour' placeholder='ใส่เฉพาะหมายเลข Ex.3' name="act_hour">
+                  <input class='form-control datepicker' type="number" id='act_hour' placeholder='ใส่เฉพาะหมายเลข Ex.3' name="act_hour" required>
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-time'></i>
                   </span>
@@ -165,14 +164,13 @@
               </div>
             </div>
           </div>
-
           <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_img'>อัพรูปภาพ :</label>
             <div class='col-md-6'>
               <div class='form-group'>
                 <div class='col-md-11'>
-                  <input type="hidden" name="type" value="events">
-                  <input type="file" name="act_img" accept="image/*" value="">
+                  <input type="hidden" name="type" value="events" required>
+                  <input type="file" name="act_img" accept="image/*" value="" required>
                 </div>
               </div>
             </div>
@@ -185,10 +183,8 @@
             <div class='col-md-3'>
               <button class='btn-lg btn-danger hvr-icon-spin col-5' style='float:right' type='reset'>ยกเลิก</button>
             </div>
-
            <div class='col-md-offset-1 col-md-1' ><a class='btn-lg btn-danger hvr-icon-pulse-grow col-9' href="/events">หลัก</a></div><br><br>
           </div>
-
           {{csrf_field()}}
          </form>
         </div>
@@ -196,11 +192,4 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
 @endsection

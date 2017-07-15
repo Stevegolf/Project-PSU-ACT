@@ -1,12 +1,12 @@
 <?php
 namespace App\Http\Controllers\Admin;
-
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Event;
 use App\Type;
 use App\Department;
 use Illuminate\Support\Facades\DB;
+use File;
 
 class EventController extends Controller
 {
@@ -25,13 +25,12 @@ class EventController extends Controller
         $events = Event::orderBy('updated_at','DESC')->paginate($NUM_PAGE);
         $page = $request->input('page');
         $page = ($page != null)?$page:1;
+        return view('admin.event.event',compact('objs','page','events','NUM_PAGE'));
         // $objs=DB::table('events')
         //         ->join('users','events.user_id','=','users.id')
         //         ->join('departments','events.department_id','=','departments.id')
         //         ->select('events.id','events.act_name','departments.dep_name','users.name')
         //         ->get();
-        return view('admin.event.event',compact('objs','page','events','NUM_PAGE'));
-
 
     }
 
@@ -42,7 +41,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        
+
         $types = Type::all();
         $departs = Department::all();
         return view('admin.event.create',compact('types','departs'));
@@ -56,32 +55,12 @@ class EventController extends Controller
      */
     public function store(Request $request)
 
-    // {
-    //     //insert database
-    //     $objs              = new Event();
-    //     $objs->act_name    =$request->input('act_name');
-    //     $objs->act_dep     =$request->input('act_dep');
-    //     $objs->act_locat   =$request->input('act_locat');
-    //     $objs->dateTime_begin=$request->input('dateTime_begin');
-    //     $objs->dateTime_end=$request->input('dateTime_end');
-    //     $objs->act_sem     =$request->input('act_sem');
-    //     $objs->act_year    =$request->input('act_year');
-    //     $objs->act_req     =$request->input('act_req');
-    //     $objs->act_hour    =$request->input('act_hour');
-    //     $objs->act_note    =$request->input('act_note');
-    //     //$objs->act_img     =$request->input('act_img');
-    //     //$objs->type_id     =$request->input('type_id');
-    //     $objs->user_id     =$request->input('user_id');
-    //     $objs->save();
-    //     return redirect('/events');
-    //     // dd($obj->act_name );
-    // }
     {
+
         Event::create($request->all());
         $event = Event::all()->last();//get the lastest record
         $types = $request->input('types');
         $event->types()->attach($types);
-
         $event->act_img = '-';
         $act_img = $request->file('act_img');
         $act_img->move(public_path('images/events/type'),'events-'.$event->id.'.png');
@@ -92,7 +71,6 @@ class EventController extends Controller
     }
 
 
-
     /**
      * Display the specified resource.
      *
@@ -101,19 +79,15 @@ class EventController extends Controller
      */
     public function show($id){
         $events=Event::with('department')->with('types')->find($id);
-       
-
         return view('admin.event.show',compact('events'));
+
     }
-        // dd($events->department->dep_name);
-        // $events = DB::table('events')
-        //      ->join('departments','events.id','=','departments.id')
-        //      ->join('event_type','events.id','=','event_type.event_id')
-        //      ->join('types','event_type.type_id','=','types.id')
-        //      ->where('events.id',$id)->first();
-        //      dd($events);
 
+    public function activity(){
+        $events = Event::all();
+        return view('user/activity',compact('events'));
 
+    }
 
     /**
      * Show the form for editing the specified resource.
@@ -123,9 +97,11 @@ class EventController extends Controller
      */
     public function edit($id)
     {
-         $event = Event::findOrFail($id);
-         $types = Type::all();
-         return view('admin.event.edit',compact('event','id','types'));
+         //$event = Event::findOrFail($id);
+          $event=Event::with('department')->with('types')->find($id);
+          $types = Type::all();
+          $departs=$event->department->dep_name;
+          return view('admin.event.edit',compact('event','id','types','departs'));
     }
 
     /**
@@ -149,7 +125,6 @@ class EventController extends Controller
         else{
             $event->types()->sync($types);
         }
-
         $event->update($request->all());
         return redirect('events');
 
@@ -165,13 +140,17 @@ class EventController extends Controller
     public function destroy($id)
     //delete database
     {
+       File::delete(public_path('images/events/type/events-'.$id.'.png'));
        Event::destroy($id);
        return redirect('events');
 
-        // $image =\DB::table('files')->where('id', $id)->first();
-        // $file= $image->('images/events/type');
-        // $filename = public_path().'/uploads_folder/'.$file;
-        // \File::delete($filename);
-
     }
+
+     public function showevent($id){
+        $events=Event::with('department')->with('types')->find($id);
+        dd($events);
+        return view('user.activity',compact('events'));
+    }
+
 }
+

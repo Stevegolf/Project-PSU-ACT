@@ -48,7 +48,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="/backend/css/bootstrap-material-datetimepicker.css" />
     <link href="/backend/css/fonts-googleapis.css" rel='stylesheet' type='text/css'>
     <link href="/backend/css/fonts-googleapis2.css" rel="stylesheet">
-    <script type="text/javascript" src="/backend/js/bootstrap2.min.js"></script>
     <script src="/backend/js/ripples.min.js"></script>
     <script src="/backend/js/material.min.js"></script>
     <script type="text/javascript" src="/backend/js/material2.min.js"></script>
@@ -181,13 +180,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="profile_details_left">
                     <div class="header-right-left">
                         <a class="btn btn-primary">{{ Auth::user()->name }}</a>
-                    </div> 
+                    </div>
+
                     <div class="profile_details">
                         <ul>
                             <li class="dropdown profile_details_drop">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                                     <div class="profile_img">
-                                        <span class="prfil-img"><i class="fa fa-user" aria-hidden="true"></i></span> 
+                                        <span class="prfil-img"><i class="fa fa-user" aria-hidden="true"></i></span>
                                         <div class="clearfix"></div>
                                     </div>
                                 </a>
@@ -199,6 +199,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </li>
                         </ul>
                     </div>
+
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -239,7 +240,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       $.material.init()
     });
     </script>
-
 
 </body>
 </html>

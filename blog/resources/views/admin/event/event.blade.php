@@ -23,10 +23,10 @@
 				<div class="form-body" >
 					<table class="table table-striped table-hover">
 						<tr>
-							<th width="50px">ลำดับ</th>
-							<th>ชื่อกิจกรรม</th>
-							<th>หน่วยงาน</th>
-							<th>สร้างโดย</th>
+							<th width="50px">ID</th>
+							<th>Event Name</th>
+							<th>Department</th>
+							<th>Create by</th>
 							<th width="280px">Action</th>
 						</tr>
 						@foreach($events as $index => $items)
@@ -39,7 +39,7 @@
 								<form action="/events/{{$items->id}}" method="post" class="form-inline">
 									<a href="/events/{{$items->id}}" class="btn btn-warning">Show</a>
 									<a href="/events/{{$items->id}}/edit" class="btn btn-primary">Edit</a>
-									<input type="hidden" name="_method" value="DELETE" />
+									<input type="hidden" name="_method" value="DELETE"/>
 									{{csrf_field()}}
 									<button class="btn btn-info">Delete</button>
 								</form>

@@ -18,15 +18,8 @@
           </div>
           <div class="panel-body">
             <div class="row">
-
-
-
               <div class="col-md-3 col-lg-3 " align="center">
               <img src="{{url('/images/events/type/'.$events->act_img)}}" class="img-rounded img-responsive"> </div>
-
-
-
-
               <div class=" col-md-9 col-lg-9 ">
                 <table class="table table-user-information">
                   <tbody>
@@ -70,8 +63,6 @@
                           </span>
                           &nbsp;
                         @endforeach 
-
-
                       </td>
                     </tr>
                     <tr>
