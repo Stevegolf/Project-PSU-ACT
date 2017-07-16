@@ -24,6 +24,7 @@
     <link rel="shortcut icon" href="/fontend/images/ico/favicon.ico">
     <link rel="stylesheet" href="/fontend/css/w3.css">
     <link rel="stylesheet" href="/fontend/css/icon.css">
+
     <style>
         .white-text{
             color: #fff !important; 

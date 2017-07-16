@@ -14,6 +14,7 @@
 Route::resource('events','Admin\\EventController');
 Route::get('events','Admin\\EventController@index')->middleware('auth');
 Route::get('activity','Admin\\EventController@activity');
+Route::get('show','Admin\\EventController@showactivity');
 
 
 Route::resource('/manageuser','Admin\\ManageuserController');

@@ -83,12 +83,6 @@ class EventController extends Controller
 
     }
 
-    public function activity(){
-        $events = Event::all();
-        return view('user/activity',compact('events'));
-
-    }
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -146,11 +140,18 @@ class EventController extends Controller
 
     }
 
-     public function showevent($id){
-        $events=Event::with('department')->with('types')->find($id);
-        dd($events);
-        return view('user.activity',compact('events'));
+
+
+    public function activity(){
+        $events = Event::all();
+        return view('user/activity/activity',compact('events'));
+
     }
+
+     public function showactivity(){
+        return view('user.activity.show');
+    }
+
 
 }
 
