@@ -9,9 +9,9 @@
 @section('content')
 <div class="container-fluid">
   <h2></h2><br>
-  <div class="panel-group">
+  <div class="panel-group" style=" box-shadow:3px 3px 2px #888888;">
     <div class="panel panel-primary">
-      <div class="panel-heading">Panel with panel-default class</div><br>
+      <div class="panel-heading"><h5><b>Volunteer Backpack Gen1</b></h5></div><br>
       <div class="panel-body">
 		<div class="container">
 			<div class="col col-md-8">
@@ -24,50 +24,45 @@
 			              <div class=" col-md-9 col-lg-9 ">
 			                <table class="table table-user-information">
 			                  <tbody>
-			                    <tr>
-			                      <td>ชื่อกิจกรรม:</td>
-			                      <td>11</td>
-			                    </tr>
-			                    <tr>
+			                    <tr class="info">
 			                      <td>หน่วยงาน:</td>
-			                      <td>
-			                        11
-			                      </td>
+			                      <td>ชมรมอาสา</td>
 			                    </tr>
-			                    <tr>
+			                    <tr class="info">
 			                      <td>สถานที่จัดกิจกรรม:</td>
-			                      <td>11</td>
+			                      <td>โรงเรียนบ้านหนองใหญ่</td>
 			                    </tr>
 			                    <tr>
 			                      <td>เริ่มกิจกรรม (ว/ด/ป:เวลา):</td>
-			                      <td>11</td>
+			                      <td>2017-07-15 16:50:00</td>
 			                    </tr>
 			                    <tr>
 			                      <td>สิ้นสุดกิจกรรม (ว/ด/ป:เวลา):</td>
-			                      <td>11</td>
+			                      <td>2017-07-15 16:50:00</td>
 			                    </tr>
-			                    <tr>
+			                    <tr class="info">
 			                      <td>ภาคการศึกษา:</td>
-			                      <td>11</td>
+			                      <td>1</td>
 			                    </tr>
-			                     <tr>
+			                     <tr class="info">
 			                      <td>ปีการศึกษา:</td>
-			                      <td>11</td>
+			                      <td>2560</td>
 			                    </tr>
 			                    <tr>
 			                      <td>ประเภทกิจกรรม:</td>
-			                      <td>
-
-			                       11
-			                      </td>
+			                      <td>จิตอาสา  บังคับ </td>
 			                    </tr>
-			                    <tr>
+			                     <tr>
+			                      <td>ปิดรับสมัคร (ว/ด/ป:เวลา):</td>
+			                      <td>2017-07-15 16:50:00</td>
+			                    </tr>
+			                    <tr class="info">
 			                      <td>จำนวนคนที่รับสมัคร:</td>
-			                      <td>11</td>
+			                      <td>100</td>
 			                    </tr>
-			                    <tr>
+			                    <tr class="info">
 			                      <td>จำนวนชั่วโมงที่ได้รับ:</td>
-			                      <td>11</td>
+			                      <td>20</td>
 			                    </tr>
 			                    <tr>
 			                      <td><b>ข้อมูลเพิ่มเติม:</b></td>
@@ -75,7 +70,8 @@
 			                    </tr>
 			                  </tbody>
 			                </table>
-			                 <p>11</p>
+			                 <p>&nbsp;&nbsp;&nbsp;&nbsp;รับสมัครนักศึกษาเข้าร่วมกิจกรรมลูกพระบิดาจิตอาสา
+							เนื่องในโอกาสวันเฉลิมพระชนพรรษา 65 พรรษา สมเด็จพระเจ้าอยู่หัวมหาวชิราลงกรณ บดินทรเทพยวรางกูรในวันที่ 27 กรกฎาคม 2560 ระหว่างเวลา 08.00 - 13.30 น.</p>
 			              </div>
 			            </div>
 				      </div>
@@ -115,12 +111,12 @@
 		      			<div class="panel-body">
 
 			            <div class="countdiv">
-						  <div>
-						    <span class="minutes">100</span>
-						    <div class="smallnumber">สมัคร</div>
+						  <div style="background-color: #5cb85c">
+						    <span class="number">100</span>
+						    <div class="smallnumber">สมัครแล้ว</div>
 						  </div>
-						  <div>
-						    <span class="seconds">100</span>
+						  <div style="background-color: #d9534f">
+						    <span class="number2">100</span>
 						    <div class="smallnumber">จำนวนที่รับ</div>
 						  </div>
 						</div><br>
@@ -141,29 +137,13 @@
 				  </div>
 				</div>
 				<div class="col col-md-8">
-				  <div class="panel-group">
-		    		<div class="panel panel-primary">
-		      			<div class="panel-body">
-						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=large&mobile_iframe=true&width=120&height=28&appId" width="120" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-					    </div>
-					 </div>
-				  </div>
-				</div>
-				<div class="col col-md-8">
-				  <div class="panel-group">
-		    		<div class="panel panel-primary">
-		      			<div class="panel-body">
-						event
-					    </div>
-					</div>
-				  </div>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="3"></div>
 				</div>
 				</div>
 		      </div>
 		    </div>
 		  </div>
 		</div>
-
 		<script>
 			  function getTimeRemaining(endtime) {
 			  var t = Date.parse(endtime) - Date.parse(new Date());
@@ -207,5 +187,15 @@
 			var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 			initializeClock('clockdiv', deadline);
 		</script>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.9";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 
 @endsection

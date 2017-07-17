@@ -49,7 +49,7 @@ h1 {
     margin: 10px;
 }
 p {
-    padding: 10px;
+    padding: 0px;
     font-weight: 100;
     color: #000000;
 }
@@ -561,8 +561,8 @@ p {
 }
 .client-nav li a {
     display:inherit;
-    padding:5px;
-    background:#ffffff;
+    padding:0px;
+    background:;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -591,6 +591,7 @@ p {
     width:50px;
     height:50px;
     float:left;
+
 }
 .testimonial .whopic strong {
     float:left;
@@ -846,6 +847,7 @@ p {
     font-weight: 100;
     text-align: center;
     font-size: 30px;
+
 }
 
 #clockdiv > div{
@@ -853,6 +855,7 @@ p {
     border-radius: 3px;
     background: #337ab7;
     display: inline-block;
+    box-shadow:5px 5px 2px #888888;
 }
 
 #clockdiv div > span{
@@ -877,17 +880,25 @@ p {
     font-size: 35px;
 }
 
+.number{
+    color: #5cb85c;
+}
+.number2{
+   color:#d9534f;
+}
+
 .countdiv > div{
     padding: 10px;
     border-radius: 3px;
     background: #e39334;
     display: inline-block;
+    box-shadow:5px 5px 2px #888888;
 }
 
 .countdiv div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #337ab7;
+    background: #ffffff;
     display: inline-block;
 }
 
