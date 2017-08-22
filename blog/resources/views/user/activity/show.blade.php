@@ -11,7 +11,7 @@
   <h2></h2><br>
   <div class="panel-group" style=" box-shadow:3px 3px 2px #888888;">
     <div class="panel panel-primary">
-      <div class="panel-heading"><h5><b>Volunteer Backpack Gen1</b></h5></div><br>
+      <div class="panel-heading"><h5><b>{{$events->act_name}}</b></h5></div><br>
       <div class="panel-body">
 		<div class="container">
 			<div class="col col-md-8">
@@ -20,49 +20,56 @@
 	      			<div class="panel-body">
 				      	<div class="row">
 			              <div class="col-md-4 col-lg-3 " align="center">
-			              <img src="{{url('/images/events/type/events-21.png')}}" class="img-rounded img-responsive"></div>
+			              <img src="{{url('/images/events/type/'.$events->act_img)}}" class="img-rounded img-responsive"> </div>
 			              <div class=" col-md-9 col-lg-9 ">
 			                <table class="table table-user-information">
 			                  <tbody>
 			                    <tr class="info">
-			                      <td>หน่วยงาน:</td>
-			                      <td>ชมรมอาสา</td>
+			                      <td><a href="#" ><span class="glyphicon glyphicon-pencil"></span></a>&nbsp;&nbsp;หน่วยงาน:</td>
+			                      <td>{{$events->department->dep_name}}</td>
 			                    </tr>
 			                    <tr class="info">
-			                      <td>สถานที่จัดกิจกรรม:</td>
-			                      <td>โรงเรียนบ้านหนองใหญ่</td>
+			                      <td><a href="#" ><span class="glyphicon glyphicon-home"></span></a>&nbsp;&nbsp;สถานที่จัดกิจกรรม:</td>
+			                      <td>{{$events->act_locat}}</td>
 			                    </tr>
 			                    <tr>
 			                      <td>เริ่มกิจกรรม (ว/ด/ป:เวลา):</td>
-			                      <td>2017-07-15 16:50:00</td>
+			                      <td>{{$events->dateTime_begin}}</td>
 			                    </tr>
 			                    <tr>
 			                      <td>สิ้นสุดกิจกรรม (ว/ด/ป:เวลา):</td>
-			                      <td>2017-07-15 16:50:00</td>
+			                      <td>{{$events->dateTime_end}}</td>
 			                    </tr>
 			                    <tr class="info">
 			                      <td>ภาคการศึกษา:</td>
-			                      <td>1</td>
+			                      <td>{{$events->act_sem}}</td>
 			                    </tr>
 			                     <tr class="info">
 			                      <td>ปีการศึกษา:</td>
-			                      <td>2560</td>
+			                      <td>{{$events->act_year}}</td>
 			                    </tr>
 			                    <tr>
 			                      <td>ประเภทกิจกรรม:</td>
-			                      <td>จิตอาสา  บังคับ </td>
+			                      <td>
+			                      	 @foreach($events->types as $ctype )
+	                          			<span class="label label-info">
+	                           			 {{$ctype->nametype}}
+	                          			</span>
+	                          			&nbsp;
+                        			@endforeach
+			                      </td>
 			                    </tr>
 			                     <tr>
 			                      <td>ปิดรับสมัคร (ว/ด/ป:เวลา):</td>
-			                      <td>2017-07-15 16:50:00</td>
+			                      <td>{{$events->dateTime_close}}</td>
 			                    </tr>
 			                    <tr class="info">
 			                      <td>จำนวนคนที่รับสมัคร:</td>
-			                      <td>100</td>
+			                      <td>{{$events->act_req}}</td>
 			                    </tr>
 			                    <tr class="info">
 			                      <td>จำนวนชั่วโมงที่ได้รับ:</td>
-			                      <td>20</td>
+			                      <td>{{$events->act_hour}}</td>
 			                    </tr>
 			                    <tr>
 			                      <td><b>ข้อมูลเพิ่มเติม:</b></td>
@@ -70,8 +77,7 @@
 			                    </tr>
 			                  </tbody>
 			                </table>
-			                 <p>&nbsp;&nbsp;&nbsp;&nbsp;รับสมัครนักศึกษาเข้าร่วมกิจกรรมลูกพระบิดาจิตอาสา
-							เนื่องในโอกาสวันเฉลิมพระชนพรรษา 65 พรรษา สมเด็จพระเจ้าอยู่หัวมหาวชิราลงกรณ บดินทรเทพยวรางกูรในวันที่ 27 กรกฎาคม 2560 ระหว่างเวลา 08.00 - 13.30 น.</p>
+			                <p>{{$events->act_note}}</p>
 			              </div>
 			            </div>
 				      </div>
@@ -196,6 +202,8 @@
 		  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.9";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
+
+
 
 
 @endsection

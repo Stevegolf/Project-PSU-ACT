@@ -125,7 +125,19 @@
                  @endforeach
               </div>
           </div>
-
+          <div class='form-group'>
+            <label class='control-label col-md-2 col-md-offset-2' for='act_close' >ปิดรับสมัคร :</label>
+            <div class='col-md-8'>
+              <div class='col-md-4'>
+                <div class='form-group internal input-group'>
+                 <input type="datetime" id="min-date" class="form-control " placeholder="Close Date Time" name="dateTime_close" required>
+                  <span class='input-group-addon'>
+                    <i class='glyphicon glyphicon-calendar'></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class='form-group'>
           <label class='control-label col-md-2 col-md-offset-2' for='act_req'>จำนวนคนที่รับสมัคร :</label>
             <div class='col-md-8'>

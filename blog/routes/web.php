@@ -12,9 +12,10 @@
 */
 //admin Rout event
 Route::resource('events','Admin\\EventController');
+Route::resource('activity','ActivityController');
 Route::get('events','Admin\\EventController@index')->middleware('auth');
 Route::get('activity','Admin\\EventController@activity');
-Route::get('show','Admin\\EventController@showactivity');
+Route::get('/show/26','Admin\\EventController@showactivity');
 
 
 Route::resource('/manageuser','Admin\\ManageuserController');

@@ -13,7 +13,7 @@
     <div class=" form-grids form-grids-right">
       <div class="widget-shadow " data-example-id="basic-forms">
         <div class="form-title">
-          <h2>Add Event</h2>
+          <h2>Update Event</h2>
         </div>
         <div class="form-body">
       <form class='form-horizontal' role='form' action="/events/{{$id}}" method="post" enctype="multipart/form-data">
@@ -132,6 +132,19 @@
                 <input type="checkbox" name="types[]" value="{{$type->id}}" {{$chk}}>{{$type->nametype}}</label></div>
                  @endforeach
               </div>
+          </div>
+          <div class='form-group'>
+            <label class='control-label col-md-2 col-md-offset-2' for='act_close'>ปิดรับสมัคร (ว/ด/ป:เวลา):</label>
+            <div class='col-md-8'>
+              <div class='col-md-4'>
+                <div class='form-group internal input-group'>
+                  <input class='form-control datepicker' type="datetime" id='min-date' name="dateTime_close" value="{{$event->dateTime_end}}">
+                  <span class='input-group-addon'>
+                    <i class='glyphicon glyphicon-calendar'></i>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class='form-group'>
             <label class='control-label col-md-2 col-md-offset-2' for='act_req'>จำนวนคนที่รับสมัคร :</label>

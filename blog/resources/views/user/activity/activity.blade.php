@@ -17,13 +17,13 @@
             <li class="span4 mix web">
                 <div class="thumbnail" >
                    <img src="{{url('/images/events/type/'.$event->act_img)}}" style="height: 300px; width: 400px;">
-                        <a href="/show" class="more">
+                        <a href="/activity/{{$event->id}}" class="more">
                             <i class="icon-plus" ></i>
                         </a>
                     <ul class="w3-ul">
                     <h3><b>{{$event->act_name}}</b></h3>
-                        <li align="left"><i class="material-icons">event</i>เริ่มกิจกรรม:&nbsp;&nbsp;{{$event->dateTime_begin}}</li>
-                        <li align="left"><i class="material-icons">home</i> สถานที่ :&nbsp;&nbsp;{{$event->act_locat}}</li>
+                        <li align="left"><i class="material-icons ">event</i>เริ่มกิจกรรม:&nbsp;&nbsp;{{$event->dateTime_begin}}</li>
+                        <li align="left"><i class="material-icons ">home</i> สถานที่ :&nbsp;&nbsp;{{$event->act_locat}}</li>
                         </ul>
                     <div class="mask"></div>
                 </div>
@@ -32,9 +32,5 @@
         </ul>
     </div>
 </div>
-
-
-
-
 
 @endsection

@@ -21,8 +21,9 @@ class CreateEventsTable extends Migration
             $table->double('act_sem');
             $table->double('act_year');
             $table->double('act_req');
+            $table->dateTime('dateTime_close');
             $table->double('act_hour');
-            $table->string('act_note')->nullable();
+            $table->string('act_note',255)->nullable();
             $table->string('act_img')->nullable();
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');

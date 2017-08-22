@@ -80,6 +80,8 @@ class EventController extends Controller
     public function show($id){
         $events=Event::with('department')->with('types')->find($id);
         return view('admin.event.show',compact('events'));
+        // $event = Event::findOrFail($id);
+        // return view('user/activity/show',compact('event'));
 
     }
 
@@ -143,13 +145,14 @@ class EventController extends Controller
 
 
     public function activity(){
-        $events = Event::all();
+        $events = Event::all()->sortByDesc("created_at");
         return view('user/activity/activity',compact('events'));
 
     }
 
-     public function showactivity(){
-        return view('user.activity.show');
+     public function showactivity($id){
+        $event = Event::findOrFail($id);
+        return view('user/activity/show',compact('event'));
     }
 
 
