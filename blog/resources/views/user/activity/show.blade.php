@@ -25,31 +25,31 @@
 			                <table class="table table-user-information">
 			                  <tbody>
 			                    <tr class="info">
-			                      <td><a href="#" ><span class="glyphicon glyphicon-pencil"></span></a>&nbsp;&nbsp;หน่วยงาน:</td>
+			                      <td><i class="material-icons">account_balance</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หน่วยงาน:</td>
 			                      <td>{{$events->department->dep_name}}</td>
 			                    </tr>
 			                    <tr class="info">
-			                      <td><a href="#" ><span class="glyphicon glyphicon-home"></span></a>&nbsp;&nbsp;สถานที่จัดกิจกรรม:</td>
+			                      <td><i class="material-icons">add_location</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สถานที่จัดกิจกรรม:</td>
 			                      <td>{{$events->act_locat}}</td>
 			                    </tr>
 			                    <tr>
-			                      <td>เริ่มกิจกรรม (ว/ด/ป:เวลา):</td>
+			                      <td><i class="material-icons">access_time</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เริ่มกิจกรรม (ว/ด/ป:เวลา):</td>
 			                      <td>{{$events->dateTime_begin}}</td>
 			                    </tr>
 			                    <tr>
-			                      <td>สิ้นสุดกิจกรรม (ว/ด/ป:เวลา):</td>
+			                      <td><i class="material-icons">access_time</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สิ้นสุดกิจกรรม (ว/ด/ป:เวลา):</td>
 			                      <td>{{$events->dateTime_end}}</td>
 			                    </tr>
 			                    <tr class="info">
-			                      <td>ภาคการศึกษา:</td>
+			                      <td><i class="material-icons">event_available</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ภาคการศึกษา:</td>
 			                      <td>{{$events->act_sem}}</td>
 			                    </tr>
 			                     <tr class="info">
-			                      <td>ปีการศึกษา:</td>
+			                      <td><i class="material-icons">insert_invitation</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ปีการศึกษา:</td>
 			                      <td>{{$events->act_year}}</td>
 			                    </tr>
 			                    <tr>
-			                      <td>ประเภทกิจกรรม:</td>
+			                      <td><i class="material-icons">loyalty</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ประเภทกิจกรรม:</td>
 			                      <td>
 			                      	 @foreach($events->types as $ctype )
 	                          			<span class="label label-info">
@@ -60,19 +60,19 @@
 			                      </td>
 			                    </tr>
 			                     <tr>
-			                      <td>ปิดรับสมัคร (ว/ด/ป:เวลา):</td>
-			                      <td>{{$events->dateTime_close}}</td>
+			                      <td><i class="material-icons">access_alarms</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ปิดรับสมัคร (ว/ด/ป:เวลา):</td>
+								<td id="cat">{{$events->dateTime_close}}</td>
 			                    </tr>
 			                    <tr class="info">
-			                      <td>จำนวนคนที่รับสมัคร:</td>
+			                      <td><i class="material-icons">person</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;จำนวนคนที่รับสมัคร:</td>
 			                      <td>{{$events->act_req}}</td>
 			                    </tr>
 			                    <tr class="info">
-			                      <td>จำนวนชั่วโมงที่ได้รับ:</td>
+			                      <td><i class="material-icons">timer</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;จำนวนชั่วโมงที่ได้รับ:</td>
 			                      <td>{{$events->act_hour}}</td>
 			                    </tr>
 			                    <tr>
-			                      <td><b>ข้อมูลเพิ่มเติม:</b></td>
+			                      <td><b><i class="material-icons">event_note</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ข้อมูลเพิ่มเติม:</b></td>
 			                      <td></td>
 			                    </tr>
 			                  </tbody>
@@ -88,26 +88,8 @@
 				  <div class="panel-group">
 		    		<div class="panel panel-primary">
 		      			<div class="panel-body">
-
-						<div id="clockdiv">
-						  <div>
-						    <span class="days"></span>
-						    <div class="smalltext">Days</div>
-						  </div>
-						  <div>
-						    <span class="hours"></span>
-						    <div class="smalltext">Hours</div>
-						  </div>
-						  <div>
-						    <span class="minutes"></span>
-						    <div class="smalltext">Minutes</div>
-						  </div>
-						  <div>
-						    <span class="seconds"></span>
-						    <div class="smalltext">Seconds</div>
-						  </div>
+						<center><p id="demo"></p></center>
 						</div>
-				      </div>
 				    </div>
 				  </div>
 				</div>
@@ -122,7 +104,7 @@
 						    <div class="smallnumber">สมัครแล้ว</div>
 						  </div>
 						  <div style="background-color: #d9534f">
-						    <span class="number2">100</span>
+						    <span class="number2">{{$events->act_req}}</span>
 						    <div class="smallnumber">จำนวนที่รับ</div>
 						  </div>
 						</div><br>
@@ -142,57 +124,50 @@
 				    </div>
 				  </div>
 				</div>
-				<div class="col col-md-8">
-				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="3"></div>
-				</div>
+				
 				</div>
 		      </div>
 		    </div>
 		  </div>
 		</div>
-		<script>
-			  function getTimeRemaining(endtime) {
-			  var t = Date.parse(endtime) - Date.parse(new Date());
-			  var seconds = Math.floor((t / 1000) % 60);
-			  var minutes = Math.floor((t / 1000 / 60) % 60);
-			  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-			  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-			  return {
-			    'total': t,
-			    'days': days,
-			    'hours': hours,
-			    'minutes': minutes,
-			    'seconds': seconds
-			  };
-			}
 
-			function initializeClock(id, endtime) {
-			  var clock = document.getElementById(id);
-			  var daysSpan = clock.querySelector('.days');
-			  var hoursSpan = clock.querySelector('.hours');
-			  var minutesSpan = clock.querySelector('.minutes');
-			  var secondsSpan = clock.querySelector('.seconds');
+<script>
+var date = "{{$events->dateTime_close}}";
+var countDownDate = new Date(date).getTime();
+console.log(countDownDate)
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = 
+    "<div id='clockdiv'>"+
+    	"<div>"+
+    		"<center><span class='days'></span></center>"+ days +
+    			 "<div class='smalltext'>Days</div> " + 
+        "</div>" + 
+    	"&nbsp;<div>"+
+    		"<center><span class='hours'></span></center>"+ hours +
+    			 "<div class='smalltext'>Hours</div> " + 
+        "</div>" + 
+    	"&nbsp;<div>"+
+    		"<center><span class='minutes'></span></center>"+ minutes +
+    			 "<div class='smalltext'>Minutes</div> " + 
+        "</div>" + 
+         "&nbsp;<div>"+
+    		"<center><span class='seconds'></span></center>"+ seconds +
+    			 "<div class='smalltext'>Seconds</div> " + 
+        "</div>" + 
+    "</div>";
 
-			  function updateClock() {
-			    var t = getTimeRemaining(endtime);
-
-			    daysSpan.innerHTML = t.days;
-			    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-			    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-			    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-			    if (t.total <= 0) {
-			      clearInterval(timeinterval);
-			    }
-			  }
-
-			  updateClock();
-			  var timeinterval = setInterval(updateClock, 1000);
-			}
-
-			var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-			initializeClock('clockdiv', deadline);
-		</script>
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "<h2 style='color: #d9534f;'>Time out to register!</h2>";
+    }
+}, 1000);
+</script>
 
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -202,8 +177,5 @@
 		  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.9";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
 
 @endsection
