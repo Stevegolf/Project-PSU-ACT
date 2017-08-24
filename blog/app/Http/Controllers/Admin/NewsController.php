@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Admin;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use File;
 
 class NewssController extends Controller
 {
@@ -13,7 +14,11 @@ class NewssController extends Controller
      */
     public function index()
     {
-        //
+        $NUM_PAGE = 12;
+        $news = News::orderBy('updated_at','DESC')->paginate($NUM_PAGE);
+        $page = $request->input('page');
+        $page = ($page != null)?$page:1;
+        return view('admin.news.news',compact('objs','page','news','NUM_PAGE'));
     }
 
     /**
@@ -23,7 +28,7 @@ class NewssController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.news.create');
     }
 
     /**

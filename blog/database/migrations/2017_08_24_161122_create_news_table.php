@@ -13,7 +13,14 @@ class CreateNewsTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('news', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('news_title');
+            $table->string('news_detail');
+            $table->string('news_img')->nullable();
+            $table->integer('user_id')->unsigned();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +30,6 @@ class CreateNewsTable extends Migration
      */
     public function down()
     {
-        //
+         Schema::dropIfExists('news');
     }
 }
