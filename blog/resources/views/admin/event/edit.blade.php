@@ -138,7 +138,7 @@
             <div class='col-md-8'>
               <div class='col-md-4'>
                 <div class='form-group internal input-group'>
-                  <input class='form-control datepicker' type="datetime" id='min-date' name="dateTime_close" value="{{$event->dateTime_end}}">
+                  <input class='form-control datepicker' type="datetime" id='min-date' name="dateTime_close" value="{{$event->dateTime_close}}">
                   <span class='input-group-addon'>
                     <i class='glyphicon glyphicon-calendar'></i>
                   </span>

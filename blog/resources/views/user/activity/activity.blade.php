@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<div class="section secondary-section " >
+<div class="section secondary-section ">
     <div class="container">
       <div class=" title">
       <h1>Activity</h1>
@@ -22,8 +22,8 @@
                         </a>
                     <ul class="w3-ul">
                     <h3><b>{{$event->act_name}}</b></h3>
-                        <li align="left"><i class="material-icons ">event</i>เริ่มกิจกรรม:&nbsp;&nbsp;{{$event->dateTime_begin}}</li>
-                        <li align="left"><i class="material-icons ">home</i> สถานที่ :&nbsp;&nbsp;{{$event->act_locat}}</li>
+                        <li align="left"><i class="material-icons ">event</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เริ่มกิจกรรม:&nbsp;&nbsp;{{$event->dateTime_begin}}</li>
+                        <li align="left"><i class="material-icons ">home</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สถานที่ :&nbsp;&nbsp;{{$event->act_locat}}</li>
                         </ul>
                     <div class="mask"></div>
                 </div>

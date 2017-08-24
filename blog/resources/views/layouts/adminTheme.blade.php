@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </li>
              <li>
-                <a href="/managenews">
+                <a href="/news">
                     <i class="fa fa-file-text-o nav_icon"></i>
                     <span class="nav-text">
                     News

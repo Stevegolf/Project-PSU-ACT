@@ -42,7 +42,7 @@ Route::get('/messenger','MessengerController@messenger')->middleware('auth');
 Route::get('/report','ReportController@report')->middleware('auth');
 Route::get('/managedocument','ManagedocumentController@managedocument')->middleware('auth');
 Route::get('/managecalendar','ManagecalendarController@managecalendar')->middleware('auth');
-Route::get('/managenews','ManagenewsController@managenews')->middleware('auth');
+Route::get('/news','ManagenewsController@managenews')->middleware('auth');
 Route::get('/managegallery','ManagegalleryController@managegallery')->middleware('auth');
 Route::get('/dashboard','DashboardController@dashboard')->middleware('auth');
 
