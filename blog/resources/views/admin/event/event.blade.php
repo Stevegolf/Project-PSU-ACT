@@ -15,6 +15,7 @@
 				<div class="form-title">
 				<div class="pull-right">
 				@if ( !Auth::guest())
+					<a class="btn btn-danger hvr-icon-pop"  href="/department"> Active Department</a>
 					<a class="btn btn-success hvr-icon-float-away col-1"  href="/events/create"> Create Event</a>
 				@endif
 				</div>

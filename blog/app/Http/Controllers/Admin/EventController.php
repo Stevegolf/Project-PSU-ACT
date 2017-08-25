@@ -142,6 +142,21 @@ class EventController extends Controller
 
     }
 
+    public function department(){
+        $department= Department::all();
+        return view('admin/event/department',compact('department'));
+    }
+
+    public function createdepart(){
+        return view('admin/event/createdepart');
+    }
+
+       public function savedepart(Request $request){
+        $department = new Department();
+        $department->dep_name = $request->input('dep_name');
+        $department->save();
+        return redirect('department');
+    }
 
 
     public function activity(){

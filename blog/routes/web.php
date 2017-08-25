@@ -15,7 +15,10 @@ Route::resource('events','Admin\\EventController');
 Route::resource('activity','ActivityController');
 Route::get('events','Admin\\EventController@index')->middleware('auth');
 Route::get('activity','Admin\\EventController@activity');
-Route::get('/show/26','Admin\\EventController@showactivity');
+Route::get('department','Admin\\EventController@department');
+Route::get('createdepart','Admin\\EventController@createdepart');
+Route::post('savedepart','Admin\\EventController@savedepart');
+
 
 
 Route::resource('/manageuser','Admin\\ManageuserController');
