@@ -4,8 +4,12 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use File;
+use App\News;
+use App\Type;
+use Illuminate\Support\Facades\DB;
 
-class NewssController extends Controller
+
+class NewsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +18,13 @@ class NewssController extends Controller
      */
     public function index()
     {
+
         $NUM_PAGE = 12;
         $news = News::orderBy('updated_at','DESC')->paginate($NUM_PAGE);
         $page = $request->input('page');
         $page = ($page != null)?$page:1;
         return view('admin.news.news',compact('objs','page','news','NUM_PAGE'));
+
     }
 
     /**
@@ -39,7 +45,14 @@ class NewssController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $news = new News();
+      $news->news_title = $request->input('news_title');
+      $news->news_department = $request->input('news_department');
+      $news->news_detail = $request->input('news_detail');
+      $news->news_ref = $request->input('news_ref');
+      $news->news_img = $request->input('news_img');
+      $news->save();
+      return redirect('news');
     }
 
     /**

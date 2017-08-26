@@ -20,7 +20,6 @@ class CreateNewsTable extends Migration
             $table->longText('news_detail');
             $table->string('news_ref');
             $table->string('news_img')->nullable();
-            $table->integer('user_id')->unsigned();
             $table->timestamps();
         });
     }

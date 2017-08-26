@@ -14,7 +14,7 @@
 			<div class="widget-shadow " data-example-id="basic-forms">
 				<div class="form-title">
 				<div class="pull-right">
-					<a class="btn btn-success hvr-icon-float-away col-1"  href=""> Create News</a>
+					<a class="btn btn-success hvr-icon-float-away col-1"  href="news/create"> Create News</a>
 				</div>
 					<h2>News Management</h2>
 				</div>
@@ -26,11 +26,12 @@
 							<th>Department</th>
 							<th>Action</th>
 						</tr>
+            @foreach($news as $index => $items)
 						<tr>
-							<th></th>
-							<th></th>
-							<th></th>
-							<th><form action="" method="post" class="form-inline">
+              <th>{{$NUM_PAGE*($page-1) + $index+1}}</th>
+							<th>{{$items->news_title}}</th>
+							<th>{{$items->news_department}}</th>
+							<th><form action="/news/{{$items->id}}" method="post" class="form-inline">
 									<a href="" class="btn btn-warning">Show</a>
 									<a href="" class="btn btn-primary">Edit</a>
 									<input type="hidden" name="_method" value="DELETE"/>
@@ -39,13 +40,11 @@
 								</form>
 								</th>
 						</tr>
+            @endforeach
 					</table>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-
-
 @endsection

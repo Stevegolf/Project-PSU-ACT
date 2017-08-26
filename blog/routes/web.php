@@ -19,6 +19,9 @@ Route::get('department','Admin\\EventController@department');
 Route::get('createdepart','Admin\\EventController@createdepart');
 Route::post('savedepart','Admin\\EventController@savedepart');
 
+Route::resource('news','Admin\\NewsController');
+Route::get('news','Admin\\NewsController@index')->middleware('auth');
+
 
 
 Route::resource('/manageuser','Admin\\ManageuserController');
@@ -57,11 +60,3 @@ Route::get('/loginpsu','LoginController@viewlogin');
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-
-
-
-
-
-
-
-
